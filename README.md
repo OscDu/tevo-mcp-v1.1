@@ -8,6 +8,9 @@ An MCP (Model Context Protocol) server that provides access to the Ticket Evolut
 - List events with geo and date filtering
 - Get detailed event information
 - Find and filter ticket listings with ranking
+- **Entertainment Event Discovery** - Specialized search for concerts, comedy, theater
+- **Smart Ticket Presentation** - Budget-aware recommendations across price tiers
+- **Universal Event Finding** - Comprehensive search for both sports and entertainment
 
 ## Setup
 
@@ -44,7 +47,14 @@ An MCP (Model Context Protocol) server that provides access to the Ticket Evolut
 
 ## MCP Tools
 
-- `tevo.search_suggestions` - Search for events, performers, venues
-- `tevo.list_events` - List events with filters
-- `tevo.get_event` - Get event details
-- `tevo.listings_for_event` - Get ticket listings for an event
+### Core Tools
+- `tevo_search_suggestions` - Search for events, performers, venues
+- `tevo_list_events` - List events with filters
+- `tevo_get_event` - Get event details
+- `tevo_listings_for_event` - Get ticket listings for an event
+
+### Enhanced Tools
+- `tevo_universal_event_finder` - Intelligent search for sports and entertainment events
+- `tevo_entertainment_event_finder` - Specialized search for concerts, comedy, theater
+- `tevo_smart_ticket_presenter` - Budget-aware ticket recommendations
+- `tevo_smart_nfl_finder` - Advanced NFL game discovery
