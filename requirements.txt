@@ -1,0 +1,443 @@
+﻿Ticket Evolution MCP Server — Requirements
+1) Purpose & Scope
+Build an MCP server that exposes tools for:
+* Discovering events based on user intent (query, performer, venue, dates, or proximity).
+
+* Retrieving ticket options for a chosen event.
+
+* Returning up to 5 best‑match listings per the user’s criteria.
+
+Key updates: use Listings endpoints in place of deprecated Ticket Groups; follow TEvo signing rules; support v9; work in both Sandbox and Production. ticketevolution.atlassian.net+1
+________________
+
+
+2) External Interfaces (Ticket Evolution API)
+Environments
+   * Sandbox base: https://api.sandbox.ticketevolution.com/v9/
+
+   * Production base: https://api.ticketevolution.com/v9/ ticketevolution.atlassian.net+1
+
+Authentication & Signing
+      * Headers: X-Token and X‑Signature.
+
+      * X‑Signature: build a canonical string as "{METHOD} {HOST}{PATH}{?sortedQueryOrBody}", always include ?; sort query params alphabetically by key; compute HMAC‑SHA256 with the secret; Base64‑encode; send in X‑Signature. Examples and rules in TEvo docs. ticketevolution.atlassian.net+1
+
+Core endpoints this server must call
+         * Search suggestions (global): GET /searches/suggestions?entities=events,performers,venues&fuzzy={bool}&limit={n}&q={query} — for cross‑entity intent resolution (auto‑suggest style). ticketevolution.atlassian.net+1
+
+         * Events / Index (list): GET /events with filters such as performer_id, venue_id, location via lat, lon, within, and date via occurs_at conditionals; paginated. Use this after search suggestions, not name exact match. ticketevolution.atlassian.net+2ticketevolution.atlassian.net+2
+
+         * Events / Show: GET /events/{event_id} — event details. Certain legacy fields are deprecated; prefer Events / Stats for inventory counts. ticketevolution.atlassian.net
+
+         * Events / Stats: GET /events/{event_id}/stats — official stats for listing counts etc. (optional for this server but recommended for UX). ticketevolution.atlassian.net
+
+         * Listings / Index (replaces Ticket Groups): GET /listings?event_id={id} plus filters like quantity, section, row, type, format, order_by, owned. Not paginated. Includes available_quantity and splits. ticketevolution.atlassian.net
+
+         * Listings / Show: GET /listings/{id} — full listing object details. (Optional; use when you need additional properties.) ticketevolution.atlassian.net
+
+Note: Ticket Groups / Index and Ticket Groups / Show are deprecated. Use Listings. ticketevolution.atlassian.net
+________________
+
+
+3) MCP Tooling Surface (what the agent can call)
+3.1 Tools Overview
+            * tevo.search_suggestions — turn a free‑form user query into candidate entities.
+
+            * tevo.list_events — list events based on performer/venue and/or geo/date filters.
+
+            * tevo.get_event — fetch a specific event’s details.
+
+            * tevo.listings_for_event — fetch & filter listings for an event, rank, and return 5 best options.
+
+3.2 Tool Contracts (JSON Schemas)
+tevo.search_suggestions (maps to /searches/suggestions)
+{
+  "type": "object",
+  "properties": {
+    "q": { "type": "string", "minLength": 1 },
+    "limit": { "type": "integer", "minimum": 1, "maximum": 20, "default": 6 },
+    "fuzzy": { "type": "boolean", "default": true }
+  },
+  "required": ["q"]
+}
+
+
+Returns
+{
+  "type": "object",
+  "properties": {
+    "events": { "type": "array", "items": { "type": "object" } },
+    "performers": { "type": "array", "items": { "type": "object" } },
+    "venues": { "type": "array", "items": { "type": "object" } }
+  }
+}
+
+
+Maps to TEvo: /v9/searches/suggestions?entities=events,performers,venues&fuzzy={fuzzy}&limit={limit}&q={q}. ticketevolution.atlassian.net
+tevo.list_events (maps to /events)
+{
+  "type": "object",
+  "properties": {
+    "performer_id": { "type": "integer" },
+    "venue_id": { "type": "integer" },
+    "lat": { "type": "number" },
+    "lon": { "type": "number" },
+    "within": { "type": "integer", "description": "Distance radius (miles or per TEvo docs)" },
+    "occurs_at_gte": { "type": "string", "format": "date-time" },
+    "occurs_at_lt": { "type": "string", "format": "date-time" },
+    "page": { "type": "integer", "minimum": 1, "default": 1 },
+    "per_page": { "type": "integer", "minimum": 1, "maximum": 100, "default": 25 }
+  }
+}
+
+
+Returns
+{
+  "type": "object",
+  "properties": {
+    "current_page": { "type": "integer" },
+    "per_page": { "type": "integer" },
+    "total_entries": { "type": "integer" },
+    "events": { "type": "array", "items": { "type": "object" } }
+  }
+}
+
+
+Use after search_suggestions; don’t use name as a fuzzy search filter. Supports geo and date conditionals. ticketevolution.atlassian.net+2ticketevolution.atlassian.net+2
+tevo.get_event (maps to /events/{id})
+{
+  "type": "object",
+  "properties": { "event_id": { "type": "integer" } },
+  "required": ["event_id"]
+}
+
+
+Returns: full event object (note: some legacy fields deprecated). ticketevolution.atlassian.net
+tevo.listings_for_event (maps to /listings)
+{
+  "type": "object",
+  "properties": {
+    "event_id": { "type": "integer" },
+    "requested_quantity": { "type": "integer", "minimum": 1 },
+    "price_min": { "type": "number" },
+    "price_max": { "type": "number" },
+    "section": { "type": "string" },
+    "row": { "type": "string" },
+    "type": { "type": "string", "enum": ["event", "parking"] },
+    "format": { "type": "string", "enum": ["Physical", "Eticket", "Flash_seats", "TM_mobile", "Paperless"] },
+    "instant_delivery": { "type": "boolean" },
+    "wheelchair": { "type": "boolean" },
+    "order_by": { "type": "string", "enum": ["retail_price ASC", "retail_price DESC", "section ASC", "section DESC", "row ASC", "row DESC", "format ASC", "format DESC"] },
+    "return_top": { "type": "integer", "minimum": 1, "maximum": 5, "default": 5 }
+  },
+  "required": ["event_id", "requested_quantity"]
+}
+
+
+Returns (server‑normalized)
+{
+  "type": "object",
+  "properties": {
+    "event_id": { "type": "integer" },
+    "criteria_applied": { "type": "object" },
+    "options": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "properties": {
+          "listing_id": { "type": "integer" },
+          "section": { "type": "string" },
+          "row": { "type": "string" },
+          "available_quantity": { "type": "integer" },
+          "splits": { "type": "array", "items": { "type": "integer" } },
+          "price_per_ticket": { "type": "number" },
+          "total_price_for_requested_quantity": { "type": "number" },
+          "format": { "type": "string" },
+          "instant_delivery": { "type": "boolean" },
+          "in_hand": { "type": "boolean" },
+          "in_hand_on": { "type": "string" },
+          "wheelchair": { "type": "boolean" },
+          "public_notes": { "type": "string" }
+        },
+        "required": ["listing_id", "section", "available_quantity", "price_per_ticket", "splits"]
+      }
+    }
+  },
+  "required": ["event_id", "options"]
+}
+
+
+Filters map to /v9/listings query string. Note: endpoint is unpaginated. Use splits to validate purchase quantities; enforce price limits server‑side. ticketevolution.atlassian.net
+________________
+
+
+4) Server‑Side Behavior
+4.1 Flow: Query → Events → Listings
+               1. Resolve intent with search_suggestions using q (entities: events, performers, venues). Show top suggestions to the agent. ticketevolution.atlassian.net
+
+               2. List events with performer_id or venue_id from the chosen suggestion; optionally filter by lat/lon/within and occurs_at.gte/lt. Paginate with page/per_page. ticketevolution.atlassian.net+1
+
+               3. (Optional) fetch Events / Stats for counts before loading listings to avoid unnecessary heavy calls. ticketevolution.atlassian.net
+
+               4. Get listings: call /listings?event_id={id} + filters; normalize and select up to 5 best options matching the user criteria. ticketevolution.atlassian.net
+
+4.2 Selection & Ranking (return 5)
+                  * Eligibility checks (hard filters):
+
+                     * available_quantity >= requested_quantity.
+
+                     * requested_quantity ∈ splits (must match allowed purchase sizes).
+
+                     * If price_min/price_max supplied, enforce on retail_price per ticket.
+
+                     * Match type, format, section, row, wheelchair, instant_delivery if specified. ticketevolution.atlassian.net
+
+                        * Ranking (default):
+
+                           * lowest retail_price; tie‑breakers: section (alpha), row (alpha), in_hand (true first), instant_delivery (true first).
+
+                           * If user sets order_by, honor it when composing /listings (and apply server‑side tie‑breakers). ticketevolution.atlassian.net
+
+                              * Return the top N ≤ 5 options with calculated total_price_for_requested_quantity = retail_price * requested_quantity.
+
+4.3 Time & Timezones
+                                 * Treat occurs_at in the Events payload as local event time despite a trailing Z in the string; do not adjust timezone from Z. (Server may separately present a user‑localized time when displaying.) ticketevolution.atlassian.net
+
+________________
+
+
+5) HTTP Contracts (exact mappings)
+Search suggestions
+ GET /v9/searches/suggestions?entities=events,performers,venues&fuzzy={bool}&limit={n}&q={q} → 200 JSON; 401 on bad signature. ticketevolution.atlassian.net
+Events list
+ GET /v9/events?[performer_id|venue_id]&[lat,lon,within]&[occurs_at.gte,occurs_at.lt]&page={1..}&per_page={1..100} → 200 JSON; paginated. Don’t use name for fuzzy search. ticketevolution.atlassian.net+1
+Event detail
+ GET /v9/events/{event_id} → 200 JSON; note deprecated fields (ignore). ticketevolution.atlassian.net
+Event stats (optional)
+ GET /v9/events/{event_id}/stats → 200 JSON with stats for the event. ticketevolution.atlassian.net
+Listings for event
+ GET /v9/listings?event_id={id}&quantity={n}&type={...}&section={...}&row={...}&format={...}&instant_delivery={...}&wheelchair={...}&order_by={...} → 200 JSON (unpaginated array of listing objects, each with available_quantity, splits, retail_price, etc.). ticketevolution.atlassian.net
+________________
+
+
+6) Request Signing (must implement)
+                                    * Build canonical string: "{METHOD} {HOST}{PATH}{?sortedQuery|?body}". Always include ?.
+
+                                    * Sort query params alphabetically by key.
+
+                                    * For POST/PUT/DELETE with a body, use ?{rawBody} in the string instead of query.
+
+                                    * Compute X‑Signature = Base64(HMAC‑SHA256(string, secret)).
+
+                                    * Headers per request: X‑Token, X‑Signature, Accept: application/json.
+
+                                    * TEvo provides a Signature Tool; validate your implementation against it. ticketevolution.atlassian.net
+
+________________
+
+
+7) Configuration & Secrets
+Environment variables (examples)
+                                       * TEVO_ENV — sandbox or production.
+
+                                       * TEVO_BASE_URL — derived from env (https://api.sandbox.ticketevolution.com/v9/ or https://api.ticketevolution.com/v9/). ticketevolution.atlassian.net
+
+                                       * TEVO_API_TOKEN — API token.
+
+                                       * TEVO_API_SECRET — shared secret for HMAC.
+
+                                       * TEVO_TIMEOUT_MS — HTTP timeout (e.g., 8000).
+
+                                       * TEVO_MAX_RETRIES — retry attempts (e.g., 2).
+
+Security
+                                          * Never log token/secret or full canonical strings.
+
+                                          * Rotate credentials per org policy.
+
+                                          * Use a secret manager; avoid embedding secrets in code or config maps.
+
+________________
+
+
+8) Validation & Error Handling
+Client‑side validation before TEvo calls
+                                             * If requested_quantity present: verify it’s a positive integer; later enforce against splits.
+
+                                             * Validate occurs_at inputs (ISO‑8601) and lat/lon numeric ranges.
+
+HTTP handling
+                                                * On 401 Unauthorized: re‑compute signature; check query param sorting and ? rule; surface actionable error text. ticketevolution.atlassian.net
+
+                                                * Retry on idempotent GET for transient 429/5xx with exponential backoff (respect Retry‑After if provided).
+
+                                                * Map TEvo errors to MCP errors with clear codes:
+
+                                                   * TEVO_AUTH_ERROR, TEVO_RATE_LIMITED, TEVO_BAD_REQUEST, TEVO_NOT_FOUND, TEVO_SERVER_ERROR.
+
+Listings edge cases
+                                                      * If fewer than 5 eligible listings remain after filtering, return what’s available and include criteria_applied block explaining constraints that removed others (e.g., price ceiling, splits).
+
+________________
+
+
+9) Caching & Performance
+                                                         * Per‑request L1 cache (in‑memory) for:
+
+                                                            * Search suggestions for the same q within request scope (to dedupe agent retries).
+
+                                                            * Event detail during the same flow.
+
+                                                               * Short‑TTL cache (e.g., 30–60s) optional for:
+
+                                                                  * Events / Index pages for the same filters (avoid over‑fetching).
+
+                                                                     * Do not cache Listings aggressively—inventory/price changes frequently. Consider 10–30s TTL or none.
+
+________________
+
+
+10) Observability (Logs & Metrics)
+Structured logs
+                                                                        * Correlation id, endpoint, TEvo path, latency ms, HTTP status, result counts, filtered‑out counts, reason(s) (e.g., splits mismatch, price over cap).
+
+Metrics
+                                                                           * Success rate by TEvo endpoint; p50/p95 latency; cache hit ratio; selection funnel (listings returned vs eligible vs displayed).
+
+PII
+                                                                              * If logging address/email in future order flows, mask or omit.
+
+________________
+
+
+11) Testing Plan
+Unit tests
+                                                                                 * X‑Signature canonicalization (query sort, ? handling, body inclusion).
+
+                                                                                 * Criteria filters (price_min/max, splits, wheelchair, format).
+
+                                                                                 * Ranking stability and tie‑breakers.
+
+Integration tests (Sandbox)
+                                                                                    * searches/suggestions returns mixed entities for known strings. ticketevolution.atlassian.net
+
+                                                                                    * events with lat/lon/within yields results (use documented example geography). ticketevolution.atlassian.net
+
+                                                                                    * listings returns unpaginated set; validate splits behavior. ticketevolution.atlassian.net
+
+Contract tests
+                                                                                       * Validate v9 base URLs per environment. ticketevolution.atlassian.net
+
+________________
+
+
+12) Non‑Functional Requirements
+                                                                                          * Availability: 99.9% target for MCP server component.
+
+                                                                                          * Latency: p95 ≤ 1200 ms for listings_for_event under normal load (network‑bound).
+
+                                                                                          * Rate Limiting: Graceful backoff on TEvo 429; ensure concurrency caps.
+
+                                                                                          * Security: Secrets at rest encrypted; TLS 1.2+; least‑privilege CI/CD access.
+
+                                                                                          * Compatibility: v9 endpoints only; keep feature flags to switch Sandbox/Prod.
+
+________________
+
+
+13) Developer Notes & Gotchas
+                                                                                             * Do not use name filter on Events / Index for fuzzy search; use Searches / Suggestions, then drive performer_id/venue_id. ticketevolution.atlassian.net
+
+                                                                                             * Listings are the authoritative per‑event offerings now; Ticket Groups are deprecated (though still referenced in older docs). ticketevolution.atlassian.net
+
+                                                                                             * When showing times to users, treat occurs_at as local to the event despite Z; avoid double‑conversion. ticketevolution.atlassian.net
+
+________________
+
+
+14) Example Sequences
+A) “Taylor Swift in LA next month, 2 tickets, instant delivery if possible, budget $300 each”
+                                                                                                1. tevo.search_suggestions(q="Taylor Swift") → pick performer. ticketevolution.atlassian.net
+
+                                                                                                2. tevo.list_events(performer_id=..., occurs_at_gte=YYYY-MM-01T00:00:00, occurs_at_lt=YYYY-MM-31T00:00:00, lat=..., lon=..., within=...). ticketevolution.atlassian.net
+
+                                                                                                3. tevo.listings_for_event(event_id=..., requested_quantity=2, price_max=300, instant_delivery=true, order_by="retail_price ASC") → return top 5. ticketevolution.atlassian.net
+
+B) “Events near Anaheim this weekend”
+                                                                                                   1. tevo.list_events(lat=33.8366, lon=-117.9143, within=50, occurs_at_gte=2025-08-22T00:00:00, occurs_at_lt=2025-08-25T00:00:00) → show events. ticketevolution.atlassian.net
+
+________________
+
+
+15) Example Responses (abbreviated)
+Listings (server‑normalized)
+{
+  "event_id": 123456,
+  "criteria_applied": {
+    "requested_quantity": 2,
+    "price_max": 300,
+    "instant_delivery": true
+  },
+  "options": [
+    {
+      "listing_id": 1904202811,
+      "section": "GAFLR",
+      "row": "GA",
+      "available_quantity": 4,
+      "splits": [1,2,4],
+      "price_per_ticket": 252.54,
+      "total_price_for_requested_quantity": 505.08,
+      "format": "TM_mobile",
+      "instant_delivery": false,
+      "in_hand": false,
+      "in_hand_on": "2025-09-01",
+      "wheelchair": false,
+      "public_notes": "Scan from mobile"
+    }
+  ]
+}
+
+
+(Example fields align with TEvo’s Listings / Index example: available_quantity, splits, retail_price, format, etc.) ticketevolution.atlassian.net
+________________
+
+
+16) Implementation Checklist
+                                                                                                      * Add env config for Sandbox/Prod base URLs. ticketevolution.atlassian.net
+
+                                                                                                      * Implement X‑Signature generator (GET & non‑GET bodies). Unit‑test with known vectors. ticketevolution.atlassian.net
+
+                                                                                                      * Build HTTP client with timeouts, retries, and structured logging.
+
+                                                                                                      * Implement tools and map to endpoints exactly as above.
+
+                                                                                                      * Implement server‑side filters (price, splits, etc.) and ranking.
+
+                                                                                                      * Add short‑TTL cache for suggestions/events list; no long cache on listings.
+
+                                                                                                      * Add metrics + health endpoints.
+
+                                                                                                      * Write Sandbox integration tests (happy‑path and edge‑cases).
+
+                                                                                                      * Document error codes returned by MCP tools.
+
+________________
+
+
+Sources
+                                                                                                         * Overview (auth, envs, pagination/conditionals, base URLs): Ticket Evolution Confluence. ticketevolution.atlassian.net+2ticketevolution.atlassian.net+2
+
+                                                                                                         * X‑Signature rules (canonical string, sorted params, HMAC‑SHA256, Base64): Ticket Evolution Confluence. ticketevolution.atlassian.net
+
+                                                                                                         * Comprehensive Search & Suggestions endpoint: Ticket Evolution Confluence. ticketevolution.atlassian.net
+
+                                                                                                         * Events / Index (search guidance, avoid name exact match), geo filtering: Ticket Evolution Confluence. ticketevolution.atlassian.net+1
+
+                                                                                                         * Events / Show (deprecated properties): Ticket Evolution Confluence. ticketevolution.atlassian.net
+
+                                                                                                         * Listings / Index & Show (replacing Ticket Groups): Ticket Evolution Confluence. ticketevolution.atlassian.net+1
+
+                                                                                                         * Ticket Groups deprecated notice: Ticket Evolution Confluence. ticketevolution.atlassian.net
+
+                                                                                                         * Event time (occurs_at) is local despite trailing Z: Ticket Evolution Confluence. ticketevolution.atlassian.net
