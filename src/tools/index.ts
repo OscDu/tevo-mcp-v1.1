@@ -6,21 +6,21 @@ import { createSearchSuggestionsTool, handleSearchSuggestions } from './search-s
 import { createListEventsTool, handleListEvents } from './list-events.js';
 import { createGetEventTool, handleGetEvent } from './get-event.js';
 import { createListingsForEventTool, handleListingsForEvent } from './listings-for-event.js';
-import { createSmartNflFinderTool, handleSmartNflFinder } from './smart-nfl-finder.js';
+import { createComprehensiveEventSearchTool, handleComprehensiveEventSearch } from './comprehensive-event-search.js';
 import { createUniversalEventFinderTool, handleUniversalEventFinder } from './universal-event-finder.js';
-import { createSmartTicketPresenterTool, handleSmartTicketPresenter } from './smart-ticket-presenter.js';
-import { createEntertainmentEventFinderTool, handleEntertainmentEventFinder } from './entertainment-event-finder.js';
 
 export function createTools(apiClient: TevoApiClient, cache: MemoryCache): Tool[] {
   return [
+    // PRIMARY: Universal finder for any query (teams, performers, events)
     createUniversalEventFinderTool(apiClient, cache),
-    createEntertainmentEventFinderTool(apiClient, cache),
-    createSmartTicketPresenterTool(apiClient, cache),
+    // Fallback/alternate comprehensive search path
+    createComprehensiveEventSearchTool(apiClient, cache),
+    
+    // UTILITY TOOLS - For specific operations  
     createSearchSuggestionsTool(apiClient, cache),
     createListEventsTool(apiClient, cache),
     createGetEventTool(apiClient, cache),
-    createListingsForEventTool(apiClient, cache),
-    createSmartNflFinderTool(apiClient, cache)
+    createListingsForEventTool(apiClient, cache)
   ];
 }
 
@@ -31,14 +31,10 @@ export async function handleToolCall(
   params: unknown
 ): Promise<any> {
   switch (toolName) {
+    case 'tevo_comprehensive_event_search':
+      return handleComprehensiveEventSearch(apiClient, cache, params);
     case 'tevo_universal_event_finder':
       return handleUniversalEventFinder(apiClient, cache, params);
-    
-    case 'tevo_entertainment_event_finder':
-      return handleEntertainmentEventFinder(apiClient, cache, params);
-    
-    case 'tevo_smart_ticket_presenter':
-      return handleSmartTicketPresenter(apiClient, cache, params);
       
     case 'tevo_search_suggestions':
       return handleSearchSuggestions(apiClient, cache, params);
@@ -51,9 +47,6 @@ export async function handleToolCall(
     
     case 'tevo_listings_for_event':
       return handleListingsForEvent(apiClient, cache, params);
-    
-    case 'tevo_smart_nfl_finder':
-      return handleSmartNflFinder(apiClient, cache, params);
     
     default:
       throw new Error(`Unknown tool: ${toolName}`);

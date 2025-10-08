@@ -33,6 +33,8 @@ export interface ListingsForEventParams {
   wheelchair?: boolean;
   order_by?: 'retail_price ASC' | 'retail_price DESC' | 'section ASC' | 'section DESC' | 'row ASC' | 'row DESC' | 'format ASC' | 'format DESC';
   return_top?: number;
+  section_pattern?: string;
+  section_pattern_filter?: string; // Internal field for filtering logic
 }
 
 export interface SmartNflFinderParams {

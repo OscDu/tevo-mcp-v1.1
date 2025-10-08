@@ -6,7 +6,7 @@ import { validateSmartNflFinderParams } from '../utils/validation.js';
 export function createSmartNflFinderTool(_apiClient: TevoApiClient, _cache: MemoryCache): Tool {
   return {
     name: 'tevo_smart_nfl_finder',
-    description: 'Smart NFL game finder that automatically discovers game events using team names and venue-based searches',
+    description: 'Smart NFL game finder using team names and venue-based searches. Assumes requested_quantity=1 unless provided. Do not ask clarifying questions; infer and search within the next N weeks.',
     inputSchema: {
       type: 'object',
       properties: {
@@ -124,17 +124,16 @@ export async function handleSmartNflFinder(
     const searchEndDate = new Date();
     searchEndDate.setDate(now.getDate() + (validatedParams.weeks_ahead! * 7));
 
-    const eventsResponse = await apiClient.listEvents({
+    const eventsList = await apiClient.listEventsAggregate({
       venue_id: venue.venue_id,
       occurs_at_gte: now.toISOString(),
-      occurs_at_lt: searchEndDate.toISOString(),
-      per_page: 50
-    });
+      occurs_at_lt: searchEndDate.toISOString()
+    }, 200);
 
     console.error(JSON.stringify({
       type: 'venue_events_found',
       venue_id: venue.venue_id,
-      total_events: eventsResponse.events?.length || 0,
+      total_events: eventsList.length || 0,
       search_period: `${validatedParams.weeks_ahead} weeks`
     }));
 
@@ -142,7 +141,7 @@ export async function handleSmartNflFinder(
     const awayTeamPattern = new RegExp(validatedParams.away_team, 'i');
     const homeTeamPattern = new RegExp(validatedParams.home_team, 'i');
     
-    const matchingEvents = eventsResponse.events?.filter(event => {
+    const matchingEvents = (eventsList || []).filter(event => {
       const eventName = event.name.toLowerCase();
       return awayTeamPattern.test(eventName) && homeTeamPattern.test(eventName);
     }) || [];
@@ -152,8 +151,8 @@ export async function handleSmartNflFinder(
         success: false,
         message: `No ${validatedParams.away_team} at ${validatedParams.home_team} games found in the next ${validatedParams.weeks_ahead} weeks`,
         venue_searched: venue.venue_name,
-        events_checked: eventsResponse.events?.length || 0,
-        available_games: eventsResponse.events?.map(e => ({
+        events_checked: eventsList.length || 0,
+        available_games: eventsList?.map(e => ({
           name: e.name,
           date: new Date(e.occurs_at).toLocaleDateString()
         })).slice(0, 5) || []
@@ -243,7 +242,7 @@ export async function handleSmartNflFinder(
       games_found: gameResults,
       search_summary: {
         weeks_searched: validatedParams.weeks_ahead!,
-        venue_events_checked: eventsResponse.events?.length || 0,
+        venue_events_checked: eventsList.length || 0,
         matching_games: gameResults.length,
         budget_per_ticket: validatedParams.budget_per_ticket || null,
         tickets_requested: validatedParams.requested_quantity!

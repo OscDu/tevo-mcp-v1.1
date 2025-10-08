@@ -36,7 +36,11 @@ export function buildCanonicalString(
     if (query && Object.keys(query).length > 0) {
       const sortedParams = Object.keys(query)
         .sort()
-        .map(key => `${key}=${String(query[key])}`)
+        .map(key => {
+          const encodedKey = encodeURIComponent(key);
+          const encodedValue = encodeURIComponent(String(query[key]));
+          return `${encodedKey}=${encodedValue}`;
+        })
         .join('&');
       canonicalString += sortedParams;
     }

@@ -1,0 +1,5240 @@
+[
+  {
+    "key": "buffalo bills",
+    "league": "nfl",
+    "city": "Orchard Park, New York",
+    "venue": "New Highmark Stadium",
+    "variations": [
+      "Buffalo Bills"
+    ],
+    "aliases": [
+      "Orchard Park, New York"
+    ]
+  },
+  {
+    "key": "tennessee titans",
+    "league": "nfl",
+    "city": "Nashville, Tennessee",
+    "venue": "New Nissan Stadium",
+    "variations": [
+      "Tennessee Titans"
+    ],
+    "aliases": [
+      "Nashville, Tennessee"
+    ]
+  },
+  {
+    "key": "cleveland browns",
+    "league": "nfl",
+    "city": "Brook Park, Ohio",
+    "venue": "New Huntington Bank Field",
+    "variations": [
+      "Cleveland Browns"
+    ],
+    "aliases": [
+      "Brook Park, Ohio"
+    ]
+  },
+  {
+    "key": "washington commanders",
+    "league": "nfl",
+    "city": "Washington, D.C.",
+    "venue": "New Commanders Stadium",
+    "variations": [
+      "Washington Commanders"
+    ],
+    "aliases": [
+      "Washington, D.C."
+    ]
+  },
+  {
+    "key": "chicago bears",
+    "league": "nfl",
+    "city": "Arlington Heights, Illinois",
+    "venue": "Chicago Bears Stadium",
+    "variations": [
+      "Chicago Bears"
+    ],
+    "aliases": [
+      "Arlington Heights, Illinois"
+    ]
+  },
+  {
+    "key": "denver broncos",
+    "league": "nfl",
+    "city": "Denver, Colorado",
+    "venue": "New Broncos Stadium",
+    "variations": [
+      "Denver Broncos"
+    ],
+    "aliases": [
+      "Denver, Colorado"
+    ]
+  },
+  {
+    "key": "dallas mavericks",
+    "league": "nba",
+    "city": "19,200",
+    "venue": "American Airlines Center",
+    "variations": [
+      "Dallas Mavericks"
+    ],
+    "aliases": [
+      "19,200"
+    ]
+  },
+  {
+    "key": "denver nuggets",
+    "league": "nba",
+    "city": "19,520",
+    "venue": "Ball Arena",
+    "variations": [
+      "Denver Nuggets"
+    ],
+    "aliases": [
+      "19,520"
+    ]
+  },
+  {
+    "key": "brooklyn nets",
+    "league": "nba",
+    "city": "17,732",
+    "venue": "Barclays Center",
+    "variations": [
+      "Brooklyn Nets"
+    ],
+    "aliases": [
+      "17,732"
+    ]
+  },
+  {
+    "key": "washington wizards",
+    "league": "nba",
+    "city": "20,356",
+    "venue": "Capital One Arena",
+    "variations": [
+      "Washington Wizards"
+    ],
+    "aliases": [
+      "20,356"
+    ]
+  },
+  {
+    "key": "golden state warriors",
+    "league": "nba",
+    "city": "18,064",
+    "venue": "Chase Center",
+    "variations": [
+      "Golden State Warriors"
+    ],
+    "aliases": [
+      "18,064"
+    ]
+  },
+  {
+    "key": "los angeles lakers",
+    "league": "nba",
+    "city": "18,997",
+    "venue": "Crypto.com Arena",
+    "variations": [
+      "Los Angeles Lakers"
+    ],
+    "aliases": [
+      "18,997"
+    ]
+  },
+  {
+    "key": "utah jazz",
+    "league": "nba",
+    "city": "18,306",
+    "venue": "Delta Center",
+    "variations": [
+      "Utah Jazz"
+    ],
+    "aliases": [
+      "18,306"
+    ]
+  },
+  {
+    "key": "memphis grizzlies",
+    "league": "nba",
+    "city": "17,794",
+    "venue": "FedExForum",
+    "variations": [
+      "Memphis Grizzlies"
+    ],
+    "aliases": [
+      "17,794"
+    ]
+  },
+  {
+    "key": "milwaukee bucks",
+    "league": "nba",
+    "city": "17,500",
+    "venue": "Fiserv Forum",
+    "variations": [
+      "Milwaukee Bucks"
+    ],
+    "aliases": [
+      "17,500"
+    ]
+  },
+  {
+    "key": "san antonio spurs",
+    "league": "nba",
+    "city": "18,418",
+    "venue": "Frost Bank Center",
+    "variations": [
+      "San Antonio Spurs"
+    ],
+    "aliases": [
+      "18,418"
+    ]
+  },
+  {
+    "key": "indiana pacers",
+    "league": "nba",
+    "city": "17,923",
+    "venue": "Gainbridge Fieldhouse",
+    "variations": [
+      "Indiana Pacers"
+    ],
+    "aliases": [
+      "17,923"
+    ]
+  },
+  {
+    "key": "sacramento kings",
+    "league": "nba",
+    "city": "17,583",
+    "venue": "Golden 1 Center",
+    "variations": [
+      "Sacramento Kings"
+    ],
+    "aliases": [
+      "17,583"
+    ]
+  },
+  {
+    "key": "los angeles clippers",
+    "league": "nba",
+    "city": "18,000",
+    "venue": "Intuit Dome",
+    "variations": [
+      "Los Angeles Clippers"
+    ],
+    "aliases": [
+      "18,000"
+    ]
+  },
+  {
+    "key": "miami heat",
+    "league": "nba",
+    "city": "19,600",
+    "venue": "Kaseya Center",
+    "variations": [
+      "Miami Heat"
+    ],
+    "aliases": [
+      "19,600"
+    ]
+  },
+  {
+    "key": "orlando magic",
+    "league": "nba",
+    "city": "18,846",
+    "venue": "Kia Center",
+    "variations": [
+      "Orlando Magic"
+    ],
+    "aliases": [
+      "18,846"
+    ]
+  },
+  {
+    "key": "detroit pistons",
+    "league": "nba",
+    "city": "20,332",
+    "venue": "Little Caesars Arena",
+    "variations": [
+      "Detroit Pistons"
+    ],
+    "aliases": [
+      "20,332"
+    ]
+  },
+  {
+    "key": "new york knicks",
+    "league": "nba",
+    "city": "19,812",
+    "venue": "Madison Square Garden",
+    "variations": [
+      "New York Knicks"
+    ],
+    "aliases": [
+      "19,812"
+    ]
+  },
+  {
+    "key": "portland trail blazers",
+    "league": "nba",
+    "city": "19,441",
+    "venue": "Moda Center",
+    "variations": [
+      "Portland Trail Blazers"
+    ],
+    "aliases": [
+      "19,441"
+    ]
+  },
+  {
+    "key": "phoenix suns",
+    "league": "nba",
+    "city": "17,071",
+    "venue": "Mortgage Matchup Center",
+    "variations": [
+      "Phoenix Suns"
+    ],
+    "aliases": [
+      "17,071"
+    ]
+  },
+  {
+    "key": "oklahoma city thunder",
+    "league": "nba",
+    "city": "18,203",
+    "venue": "Paycom Center",
+    "variations": [
+      "Oklahoma City Thunder"
+    ],
+    "aliases": [
+      "18,203"
+    ]
+  },
+  {
+    "key": "cleveland cavaliers",
+    "league": "nba",
+    "city": "19,432",
+    "venue": "Rocket Arena",
+    "variations": [
+      "Cleveland Cavaliers"
+    ],
+    "aliases": [
+      "19,432"
+    ]
+  },
+  {
+    "key": "toronto raptors",
+    "league": "nba",
+    "city": "19,800",
+    "venue": "Scotiabank Arena",
+    "variations": [
+      "Toronto Raptors"
+    ],
+    "aliases": [
+      "19,800"
+    ]
+  },
+  {
+    "key": "new orleans pelicans",
+    "league": "nba",
+    "city": "16,867",
+    "venue": "Smoothie King Center",
+    "variations": [
+      "New Orleans Pelicans"
+    ],
+    "aliases": [
+      "16,867"
+    ]
+  },
+  {
+    "key": "charlotte hornets",
+    "league": "nba",
+    "city": "19,077",
+    "venue": "Spectrum Center",
+    "variations": [
+      "Charlotte Hornets"
+    ],
+    "aliases": [
+      "19,077"
+    ]
+  },
+  {
+    "key": "atlanta hawks",
+    "league": "nba",
+    "city": "17,044",
+    "venue": "State Farm Arena",
+    "variations": [
+      "Atlanta Hawks"
+    ],
+    "aliases": [
+      "17,044"
+    ]
+  },
+  {
+    "key": "minnesota timberwolves",
+    "league": "nba",
+    "city": "18,978",
+    "venue": "Target Center",
+    "variations": [
+      "Minnesota Timberwolves"
+    ],
+    "aliases": [
+      "18,978"
+    ]
+  },
+  {
+    "key": "boston celtics",
+    "league": "nba",
+    "city": "19,580",
+    "venue": "TD Garden",
+    "variations": [
+      "Boston Celtics"
+    ],
+    "aliases": [
+      "19,580"
+    ]
+  },
+  {
+    "key": "houston rockets",
+    "league": "nba",
+    "city": "18,055",
+    "venue": "Toyota Center",
+    "variations": [
+      "Houston Rockets"
+    ],
+    "aliases": [
+      "18,055"
+    ]
+  },
+  {
+    "key": "chicago bulls",
+    "league": "nba",
+    "city": "20,917",
+    "venue": "United Center",
+    "variations": [
+      "Chicago Bulls"
+    ],
+    "aliases": [
+      "20,917"
+    ]
+  },
+  {
+    "key": "philadelphia 76ers",
+    "league": "nba",
+    "city": "20,478",
+    "venue": "Xfinity Mobile Arena",
+    "variations": [
+      "Philadelphia 76ers"
+    ],
+    "aliases": [
+      "20,478"
+    ]
+  },
+  {
+    "key": "the wigwam",
+    "league": "nba",
+    "city": "",
+    "venue": "1949–1950",
+    "variations": [
+      "The Wigwam"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "baltimore coliseum",
+    "league": "nba",
+    "city": "",
+    "venue": "1944–1954",
+    "variations": [
+      "Baltimore Coliseum"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "chicago stadium",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1950",
+    "variations": [
+      "Chicago Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "cleveland arena",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1947",
+    "variations": [
+      "Cleveland Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "auditorium arena",
+    "league": "nba",
+    "city": "",
+    "venue": "1948–1950",
+    "variations": [
+      "Auditorium Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "detroit olympia",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1947",
+    "variations": [
+      "Detroit Olympia"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "hinkle fieldhouse",
+    "league": "nba",
+    "city": "",
+    "venue": "1948–1949",
+    "variations": [
+      "Hinkle Fieldhouse"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "duquesne gardens",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1947",
+    "variations": [
+      "Duquesne Gardens"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "rhode island auditorium",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1949",
+    "variations": [
+      "Rhode Island Auditorium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "sheboygan municipal auditorium",
+    "league": "nba",
+    "city": "",
+    "venue": "1942–1951",
+    "variations": [
+      "Sheboygan Municipal Auditorium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "armory",
+    "league": "nba",
+    "city": "",
+    "venue": "1942–1951",
+    "variations": [
+      "Armory"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "eagle auditorium",
+    "league": "nba",
+    "city": "Unknown",
+    "venue": "1938–1942",
+    "variations": [
+      "Eagle Auditorium"
+    ],
+    "aliases": [
+      "Unknown"
+    ]
+  },
+  {
+    "key": "st. louis arenathe checkerdome",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1950",
+    "variations": [
+      "St. Louis ArenaThe Checkerdome"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "maple leaf gardens",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1947",
+    "variations": [
+      "Maple Leaf Gardens"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "uline arenawashington coliseum",
+    "league": "nba",
+    "city": "",
+    "venue": "1946–1951",
+    "variations": [
+      "Uline ArenaWashington Coliseum"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "the hippodrome",
+    "league": "nba",
+    "city": "",
+    "venue": "1948–1951",
+    "variations": [
+      "The Hippodrome"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "2028",
+    "league": "mlb",
+    "city": "Grass",
+    "venue": "33,000",
+    "variations": [
+      "2028"
+    ],
+    "aliases": [
+      "Grass"
+    ]
+  },
+  {
+    "key": "2030",
+    "league": "mlb",
+    "city": "Grass",
+    "venue": "35,000–38,000",
+    "variations": [
+      "2030"
+    ],
+    "aliases": [
+      "Grass"
+    ]
+  },
+  {
+    "key": "florida panthers",
+    "league": "nhl",
+    "city": "19,250",
+    "venue": "Amerant Bank Arena",
+    "variations": [
+      "Florida Panthers"
+    ],
+    "aliases": [
+      "19,250"
+    ]
+  },
+  {
+    "key": "dallas stars",
+    "league": "nhl",
+    "city": "18,532",
+    "venue": "American Airlines Center",
+    "variations": [
+      "Dallas Stars"
+    ],
+    "aliases": [
+      "18,532"
+    ]
+  },
+  {
+    "key": "colorado avalanche",
+    "league": "nhl",
+    "city": "17,809",
+    "venue": "Ball Arena",
+    "variations": [
+      "Colorado Avalanche"
+    ],
+    "aliases": [
+      "17,809"
+    ]
+  },
+  {
+    "key": "montreal canadiens",
+    "league": "nhl",
+    "city": "21,105",
+    "venue": "Bell Centre",
+    "variations": [
+      "Montreal Canadiens"
+    ],
+    "aliases": [
+      "21,105"
+    ]
+  },
+  {
+    "key": "tampa bay lightning",
+    "league": "nhl",
+    "city": "19,092",
+    "venue": "Benchmark International Arena",
+    "variations": [
+      "Tampa Bay Lightning"
+    ],
+    "aliases": [
+      "19,092"
+    ]
+  },
+  {
+    "key": "nashville predators",
+    "league": "nhl",
+    "city": "17,159",
+    "venue": "Bridgestone Arena",
+    "variations": [
+      "Nashville Predators"
+    ],
+    "aliases": [
+      "17,159"
+    ]
+  },
+  {
+    "key": "winnipeg jets",
+    "league": "nhl",
+    "city": "15,321",
+    "venue": "Canada Life Centre",
+    "variations": [
+      "Winnipeg Jets"
+    ],
+    "aliases": [
+      "15,321"
+    ]
+  },
+  {
+    "key": "ottawa senators",
+    "league": "nhl",
+    "city": "19,347",
+    "venue": "Canadian Tire Centre",
+    "variations": [
+      "Ottawa Senators"
+    ],
+    "aliases": [
+      "19,347"
+    ]
+  },
+  {
+    "key": "washington capitals",
+    "league": "nhl",
+    "city": "18,573",
+    "venue": "Capital One Arena",
+    "variations": [
+      "Washington Capitals"
+    ],
+    "aliases": [
+      "18,573"
+    ]
+  },
+  {
+    "key": "seattle kraken",
+    "league": "nhl",
+    "city": "17,151",
+    "venue": "Climate Pledge Arena",
+    "variations": [
+      "Seattle Kraken"
+    ],
+    "aliases": [
+      "17,151"
+    ]
+  },
+  {
+    "key": "los angeles kings",
+    "league": "nhl",
+    "city": "18,230",
+    "venue": "Crypto.com Arena",
+    "variations": [
+      "Los Angeles Kings"
+    ],
+    "aliases": [
+      "18,230"
+    ]
+  },
+  {
+    "key": "utah mammoth",
+    "league": "nhl",
+    "city": "16,200",
+    "venue": "Delta Center",
+    "variations": [
+      "Utah Mammoth"
+    ],
+    "aliases": [
+      "16,200"
+    ]
+  },
+  {
+    "key": "st. louis blues",
+    "league": "nhl",
+    "city": "18,096",
+    "venue": "Enterprise Center",
+    "variations": [
+      "St. Louis Blues"
+    ],
+    "aliases": [
+      "18,096"
+    ]
+  },
+  {
+    "key": "minnesota wild",
+    "league": "nhl",
+    "city": "17,954",
+    "venue": "Grand Casino Arena",
+    "variations": [
+      "Minnesota Wild"
+    ],
+    "aliases": [
+      "17,954"
+    ]
+  },
+  {
+    "key": "anaheim ducks",
+    "league": "nhl",
+    "city": "17,174",
+    "venue": "Honda Center",
+    "variations": [
+      "Anaheim Ducks"
+    ],
+    "aliases": [
+      "17,174"
+    ]
+  },
+  {
+    "key": "buffalo sabres",
+    "league": "nhl",
+    "city": "19,070",
+    "venue": "KeyBank Center",
+    "variations": [
+      "Buffalo Sabres"
+    ],
+    "aliases": [
+      "19,070"
+    ]
+  },
+  {
+    "key": "carolina hurricanes",
+    "league": "nhl",
+    "city": "18,700",
+    "venue": "Lenovo Center",
+    "variations": [
+      "Carolina Hurricanes"
+    ],
+    "aliases": [
+      "18,700"
+    ]
+  },
+  {
+    "key": "detroit red wings",
+    "league": "nhl",
+    "city": "19,515",
+    "venue": "Little Caesars Arena",
+    "variations": [
+      "Detroit Red Wings"
+    ],
+    "aliases": [
+      "19,515"
+    ]
+  },
+  {
+    "key": "new york rangers",
+    "league": "nhl",
+    "city": "18,006",
+    "venue": "Madison Square Garden",
+    "variations": [
+      "New York Rangers"
+    ],
+    "aliases": [
+      "18,006"
+    ]
+  },
+  {
+    "key": "columbus blue jackets",
+    "league": "nhl",
+    "city": "18,144",
+    "venue": "Nationwide Arena",
+    "variations": [
+      "Columbus Blue Jackets"
+    ],
+    "aliases": [
+      "18,144"
+    ]
+  },
+  {
+    "key": "pittsburgh penguins",
+    "league": "nhl",
+    "city": "18,387",
+    "venue": "PPG Paints Arena",
+    "variations": [
+      "Pittsburgh Penguins"
+    ],
+    "aliases": [
+      "18,387"
+    ]
+  },
+  {
+    "key": "new jersey devils",
+    "league": "nhl",
+    "city": "16,514",
+    "venue": "Prudential Center",
+    "variations": [
+      "New Jersey Devils"
+    ],
+    "aliases": [
+      "16,514"
+    ]
+  },
+  {
+    "key": "vancouver canucks",
+    "league": "nhl",
+    "city": "18,910",
+    "venue": "Rogers Arena",
+    "variations": [
+      "Vancouver Canucks"
+    ],
+    "aliases": [
+      "18,910"
+    ]
+  },
+  {
+    "key": "edmonton oilers",
+    "league": "nhl",
+    "city": "18,347",
+    "venue": "Rogers Place",
+    "variations": [
+      "Edmonton Oilers"
+    ],
+    "aliases": [
+      "18,347"
+    ]
+  },
+  {
+    "key": "san jose sharks",
+    "league": "nhl",
+    "city": "17,435",
+    "venue": "SAP Center",
+    "variations": [
+      "San Jose Sharks"
+    ],
+    "aliases": [
+      "17,435"
+    ]
+  },
+  {
+    "key": "toronto maple leafs",
+    "league": "nhl",
+    "city": "18,800",
+    "venue": "Scotiabank Arena",
+    "variations": [
+      "Toronto Maple Leafs"
+    ],
+    "aliases": [
+      "18,800"
+    ]
+  },
+  {
+    "key": "calgary flames",
+    "league": "nhl",
+    "city": "19,289",
+    "venue": "Scotiabank Saddledome",
+    "variations": [
+      "Calgary Flames"
+    ],
+    "aliases": [
+      "19,289"
+    ]
+  },
+  {
+    "key": "boston bruins",
+    "league": "nhl",
+    "city": "17,565",
+    "venue": "TD Garden",
+    "variations": [
+      "Boston Bruins"
+    ],
+    "aliases": [
+      "17,565"
+    ]
+  },
+  {
+    "key": "vegas golden knights",
+    "league": "nhl",
+    "city": "17,367",
+    "venue": "T-Mobile Arena",
+    "variations": [
+      "Vegas Golden Knights"
+    ],
+    "aliases": [
+      "17,367"
+    ]
+  },
+  {
+    "key": "new york islanders",
+    "league": "nhl",
+    "city": "17,255",
+    "venue": "UBS Arena",
+    "variations": [
+      "New York Islanders"
+    ],
+    "aliases": [
+      "17,255"
+    ]
+  },
+  {
+    "key": "chicago blackhawks",
+    "league": "nhl",
+    "city": "19,717",
+    "venue": "United Center",
+    "variations": [
+      "Chicago Blackhawks"
+    ],
+    "aliases": [
+      "19,717"
+    ]
+  },
+  {
+    "key": "philadelphia flyers",
+    "league": "nhl",
+    "city": "19,538",
+    "venue": "Xfinity Mobile Arena",
+    "variations": [
+      "Philadelphia Flyers"
+    ],
+    "aliases": [
+      "19,538"
+    ]
+  },
+  {
+    "key": "mullett arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "2022–2024",
+    "variations": [
+      "Mullett Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "desert diamond arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "2003–2022",
+    "variations": [
+      "Desert Diamond Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "america west arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1996–2003",
+    "variations": [
+      "America West Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "winnipeg arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1979–1996",
+    "variations": [
+      "Winnipeg Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "madison square garden",
+    "league": "nhl",
+    "city": "",
+    "venue": "1925–1942",
+    "variations": [
+      "Madison Square Garden"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "richfield coliseum",
+    "league": "nhl",
+    "city": "",
+    "venue": "1976–1978",
+    "variations": [
+      "Richfield Coliseum"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "oakland–alameda county coliseum arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1967–1976",
+    "variations": [
+      "Oakland–Alameda County Coliseum Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "barton street arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1920–1925",
+    "variations": [
+      "Barton Street Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "quebec arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1919–1920",
+    "variations": [
+      "Quebec Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "philadelphia arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1930–1931",
+    "variations": [
+      "Philadelphia Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "duquesne gardens",
+    "league": "nhl",
+    "city": "",
+    "venue": "1925–1930",
+    "variations": [
+      "Duquesne Gardens"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "montreal forum",
+    "league": "nhl",
+    "city": "",
+    "venue": "1924–1938",
+    "variations": [
+      "Montreal Forum"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "montreal arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1917–1918",
+    "variations": [
+      "Montreal Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "st. louis arena",
+    "league": "nhl",
+    "city": "",
+    "venue": "1934–1935",
+    "variations": [
+      "St. Louis Arena"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "ottawa auditorium",
+    "league": "nhl",
+    "city": "",
+    "venue": "1923–1934",
+    "variations": [
+      "Ottawa Auditorium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "the arena",
+    "league": "nhl",
+    "city": "1907",
+    "venue": "1917–1923",
+    "variations": [
+      "The Arena"
+    ],
+    "aliases": [
+      "1907"
+    ]
+  },
+  {
+    "key": "commonwealth stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Heritage Classic",
+    "variations": [
+      "Commonwealth Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "ralph wilson stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Ralph Wilson Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "wrigley field",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Wrigley Field"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "fenway park",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Fenway Park"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "heinz field",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Heinz Field"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "mcmahon stadium",
+    "league": "nhl",
+    "venue": "Heritage Classic",
+    "variations": [
+      "McMahon Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "citizens bank park",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Citizens Bank Park"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "michigan stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Michigan Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "dodger stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Dodger Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "yankee stadium",
+    "league": "nhl",
+    "venue": "50,105",
+    "variations": [
+      "Yankee Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "50",
+    "league": "nhl",
+    "venue": "Recap",
+    "variations": [
+      "50"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "027",
+    "league": "nhl",
+    "venue": "Recap",
+    "variations": [
+      "027"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "soldier field",
+    "league": "nhl",
+    "venue": "62,921",
+    "variations": [
+      "Soldier Field"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "bc place",
+    "league": "nhl",
+    "venue": "Heritage Classic",
+    "variations": [
+      "BC Place"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "nationals park",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Nationals Park"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "levi's stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Levi's Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "gillette stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Gillette Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "tcf bank stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "TCF Bank Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "coors field",
+    "league": "nhl",
+    "venue": "50,095",
+    "variations": [
+      "Coors Field"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "investors group field",
+    "league": "nhl",
+    "venue": "Heritage Classic",
+    "variations": [
+      "Investors Group Field"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "bmo field",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Centennial Classic",
+    "variations": [
+      "BMO Field"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "busch stadium",
+    "league": "nhl",
+    "venue": "Winter Classic",
+    "variations": [
+      "Busch Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "td place stadium",
+    "league": "nhl",
+    "venue": "100 Classic",
+    "variations": [
+      "TD Place Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "citi field",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Citi Field"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "navy–marine corps memorial stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Navy–Marine Corps Memorial Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "notre dame stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Notre Dame Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "lincoln financial field",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Lincoln Financial Field"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "mosaic stadium",
+    "league": "nhl",
+    "venue": "Heritage Classic",
+    "variations": [
+      "Mosaic Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "cotton bowl stadium",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Cotton Bowl Stadium"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "falcon stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Falcon Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "edgewood tahoe resort",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "NHL Outdoors at Lake Tahoe",
+    "variations": [
+      "Edgewood Tahoe Resort"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "recap",
+    "league": "nhl",
+    "variations": [
+      "Recap"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "target field",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "Target Field"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "nissan stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Nissan Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "tim hortons field",
+    "league": "nhl",
+    "venue": "Heritage Classic",
+    "variations": [
+      "Tim Hortons Field"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "carter–finley stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Carter–Finley Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "t-mobile park",
+    "league": "nhl",
+    "city": "Recap",
+    "venue": "Winter Classic",
+    "variations": [
+      "T-Mobile Park"
+    ],
+    "aliases": [
+      "Recap"
+    ]
+  },
+  {
+    "key": "metlife stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "MetLife Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "79",
+    "league": "nhl",
+    "venue": "Recap",
+    "variations": [
+      "79"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "690",
+    "league": "nhl",
+    "venue": "Recap",
+    "variations": [
+      "690"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "ohio stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Ohio Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "loandepot park",
+    "league": "nhl",
+    "city": "",
+    "venue": "Winter Classic",
+    "variations": [
+      "LoanDepot Park"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "raymond james stadium",
+    "league": "nhl",
+    "venue": "Stadium Series",
+    "variations": [
+      "Raymond James Stadium"
+    ],
+    "aliases": []
+  },
+  {
+    "key": "minnesota united fc",
+    "league": "mls",
+    "city": "19,400",
+    "venue": "2019",
+    "lat": 44.95278,
+    "lon": -93.165,
+    "variations": [
+      "Minnesota United FC",
+      "Minnesota United"
+    ],
+    "aliases": [
+      "19,400"
+    ]
+  },
+  {
+    "key": "real salt lake",
+    "league": "mls",
+    "city": "20,213",
+    "venue": "2008",
+    "lat": 40.582923,
+    "lon": -111.893156,
+    "variations": [
+      "Real Salt Lake"
+    ],
+    "aliases": [
+      "20,213"
+    ]
+  },
+  {
+    "key": "d.c. united",
+    "league": "mls",
+    "city": "20,000",
+    "venue": "2018",
+    "lat": 38.86833,
+    "lon": -77.01222,
+    "variations": [
+      "D.C. United"
+    ],
+    "aliases": [
+      "20,000"
+    ]
+  },
+  {
+    "key": "charlotte fc",
+    "league": "mls",
+    "city": "38,000(74,867)",
+    "venue": "2022",
+    "lat": 35.22583,
+    "lon": -80.85278,
+    "variations": [
+      "Charlotte FC",
+      "Charlotte"
+    ],
+    "aliases": [
+      "38,000(74,867)"
+    ]
+  },
+  {
+    "key": "vancouver whitecaps fc",
+    "league": "mls",
+    "city": "22,120(54,500)",
+    "venue": "2011",
+    "lat": 49.27667,
+    "lon": -123.11194,
+    "variations": [
+      "Vancouver Whitecaps FC",
+      "Vancouver Whitecaps"
+    ],
+    "aliases": [
+      "22,120(54,500)"
+    ]
+  },
+  {
+    "key": "toronto fc",
+    "league": "mls",
+    "city": "30,991",
+    "venue": "2007",
+    "lat": 43.63278,
+    "lon": -79.41861,
+    "variations": [
+      "Toronto FC",
+      "Toronto"
+    ],
+    "aliases": [
+      "30,991"
+    ]
+  },
+  {
+    "key": "los angeles fc",
+    "league": "mls",
+    "city": "22,000",
+    "venue": "2018",
+    "lat": 34.01306,
+    "lon": -118.285,
+    "variations": [
+      "Los Angeles FC",
+      "Los Angeles"
+    ],
+    "aliases": [
+      "22,000"
+    ]
+  },
+  {
+    "key": "inter miami cf",
+    "league": "mls",
+    "city": "21,550",
+    "venue": "2020",
+    "lat": 26.19306,
+    "lon": -80.16111,
+    "variations": [
+      "Inter Miami CF"
+    ],
+    "aliases": [
+      "21,550"
+    ]
+  },
+  {
+    "key": "sporting kansas city",
+    "league": "mls",
+    "city": "18,467",
+    "venue": "2011",
+    "lat": 39.1218,
+    "lon": -94.8237,
+    "variations": [
+      "Sporting Kansas City"
+    ],
+    "aliases": [
+      "18,467"
+    ]
+  },
+  {
+    "key": "colorado rapids",
+    "league": "mls",
+    "city": "18,061",
+    "venue": "2007",
+    "lat": 39.80556,
+    "lon": -104.89194,
+    "variations": [
+      "Colorado Rapids"
+    ],
+    "aliases": [
+      "18,061"
+    ]
+  },
+  {
+    "key": "los angeles galaxy",
+    "league": "mls",
+    "city": "27,000",
+    "venue": "2003",
+    "lat": 33.86444,
+    "lon": -118.26111,
+    "variations": [
+      "Los Angeles Galaxy"
+    ],
+    "aliases": [
+      "27,000"
+    ]
+  },
+  {
+    "key": "st. louis city sc",
+    "league": "mls",
+    "city": "22,423",
+    "venue": "2023",
+    "lat": 38.631028,
+    "lon": -90.210917,
+    "variations": [
+      "St. Louis City SC",
+      "St. Louis City"
+    ],
+    "aliases": [
+      "22,423"
+    ]
+  },
+  {
+    "key": "new england revolution",
+    "league": "mls",
+    "city": "20,000(65,878)",
+    "venue": "2002",
+    "lat": 42.0909444,
+    "lon": -71.2643444,
+    "variations": [
+      "New England Revolution"
+    ],
+    "aliases": [
+      "20,000(65,878)"
+    ]
+  },
+  {
+    "key": "nashville sc",
+    "league": "mls",
+    "city": "30,000",
+    "venue": "2022",
+    "lat": 36.13028,
+    "lon": -86.76556,
+    "variations": [
+      "Nashville SC",
+      "Nashville"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "orlando city sc",
+    "league": "mls",
+    "city": "25,500",
+    "venue": "2017",
+    "lat": 28.6243972,
+    "lon": -81.3890361,
+    "variations": [
+      "Orlando City SC",
+      "Orlando City"
+    ],
+    "aliases": [
+      "25,500"
+    ]
+  },
+  {
+    "key": "columbus crew",
+    "league": "mls",
+    "city": "20,371",
+    "venue": "2021",
+    "lat": 39.9684611,
+    "lon": -83.0170889,
+    "variations": [
+      "Columbus Crew"
+    ],
+    "aliases": [
+      "20,371"
+    ]
+  },
+  {
+    "key": "seattle sounders fc",
+    "league": "mls",
+    "city": "37,722(68,740)",
+    "venue": "2009",
+    "lat": 47.5952,
+    "lon": -122.3316,
+    "variations": [
+      "Seattle Sounders FC",
+      "Seattle Sounders"
+    ],
+    "aliases": [
+      "37,722(68,740)"
+    ]
+  },
+  {
+    "key": "atlanta united fc",
+    "league": "mls",
+    "city": "42,500(71,000)",
+    "venue": "2017",
+    "lat": 33.7553611,
+    "lon": -84.4011917,
+    "variations": [
+      "Atlanta United FC",
+      "Atlanta United"
+    ],
+    "aliases": [
+      "42,500(71,000)"
+    ]
+  },
+  {
+    "key": "san jose earthquakes",
+    "league": "mls",
+    "city": "18,000",
+    "venue": "2015",
+    "lat": 37.35139,
+    "lon": -121.925,
+    "variations": [
+      "San Jose Earthquakes"
+    ],
+    "aliases": [
+      "18,000"
+    ]
+  },
+  {
+    "key": "portland timbers",
+    "league": "mls",
+    "city": "25,218",
+    "venue": "2011",
+    "lat": 45.52139,
+    "lon": -122.69167,
+    "variations": [
+      "Portland Timbers"
+    ],
+    "aliases": [
+      "25,218"
+    ]
+  },
+  {
+    "key": "austin fc",
+    "league": "mls",
+    "city": "20,738",
+    "venue": "2021",
+    "lat": 30.3882056,
+    "lon": -97.7198639,
+    "variations": [
+      "Austin FC",
+      "Austin"
+    ],
+    "aliases": [
+      "20,738"
+    ]
+  },
+  {
+    "key": "cf montréal",
+    "league": "mls",
+    "city": "19,619",
+    "venue": "2012",
+    "lat": 45.56306,
+    "lon": -73.5525,
+    "variations": [
+      "CF Montréal"
+    ],
+    "aliases": [
+      "19,619"
+    ]
+  },
+  {
+    "key": "houston dynamo fc",
+    "league": "mls",
+    "city": "20,656",
+    "venue": "2012",
+    "lat": 29.7522,
+    "lon": -95.3524,
+    "variations": [
+      "Houston Dynamo FC",
+      "Houston Dynamo"
+    ],
+    "aliases": [
+      "20,656"
+    ]
+  },
+  {
+    "key": "san diego fc",
+    "league": "mls",
+    "city": "35,000",
+    "venue": "2025",
+    "lat": 32.784444,
+    "lon": -117.122833,
+    "variations": [
+      "San Diego FC",
+      "San Diego"
+    ],
+    "aliases": [
+      "35,000"
+    ]
+  },
+  {
+    "key": "chicago fire fc",
+    "league": "mls",
+    "city": "24,955(61,500)",
+    "venue": "1998",
+    "lat": 41.8623,
+    "lon": -87.6167,
+    "variations": [
+      "Chicago Fire FC",
+      "Chicago Fire"
+    ],
+    "aliases": [
+      "24,955(61,500)"
+    ]
+  },
+  {
+    "key": "new york red bulls",
+    "league": "mls",
+    "city": "25,000",
+    "venue": "2010",
+    "lat": 40.73667,
+    "lon": -74.15028,
+    "variations": [
+      "New York Red Bulls"
+    ],
+    "aliases": [
+      "25,000"
+    ]
+  },
+  {
+    "key": "philadelphia union",
+    "league": "mls",
+    "city": "18,500",
+    "venue": "2010",
+    "lat": 39.83222,
+    "lon": -75.37889,
+    "variations": [
+      "Philadelphia Union"
+    ],
+    "aliases": [
+      "18,500"
+    ]
+  },
+  {
+    "key": "fc dallas",
+    "league": "mls",
+    "city": "19,096",
+    "venue": "2005",
+    "lat": 33.15444,
+    "lon": -96.83528,
+    "variations": [
+      "FC Dallas"
+    ],
+    "aliases": [
+      "19,096"
+    ]
+  },
+  {
+    "key": "fc cincinnati",
+    "league": "mls",
+    "city": "26,000",
+    "venue": "2021",
+    "lat": 39.11139,
+    "lon": -84.52222,
+    "variations": [
+      "FC Cincinnati"
+    ],
+    "aliases": [
+      "26,000"
+    ]
+  },
+  {
+    "key": "new york city fc",
+    "league": "mls",
+    "city": "30,321(47,309)",
+    "venue": "2015",
+    "lat": 40.82917,
+    "lon": -73.92639,
+    "variations": [
+      "New York City FC",
+      "New York City"
+    ],
+    "aliases": [
+      "30,321(47,309)"
+    ]
+  },
+  {
+    "key": "tampa bay mutiny",
+    "league": "mls",
+    "city": "16,000(65,857)",
+    "venue": "Houlihan's Stadium",
+    "variations": [
+      "Tampa Bay Mutiny"
+    ],
+    "aliases": [
+      "16,000(65,857)"
+    ]
+  },
+  {
+    "key": "miami fusion",
+    "league": "mls",
+    "city": "20,450",
+    "venue": "Lockhart Stadium (1959)",
+    "variations": [
+      "Miami Fusion"
+    ],
+    "aliases": [
+      "20,450"
+    ]
+  },
+  {
+    "key": "chivas usa",
+    "league": "mls",
+    "city": "18,800(27,000)",
+    "venue": "Dignity Health Sports Park",
+    "variations": [
+      "Chivas USA"
+    ],
+    "aliases": [
+      "18,800(27,000)"
+    ]
+  },
+  {
+    "key": "ucf",
+    "league": "ncaa_fbs",
+    "city": "44,206",
+    "venue": "Acrisure Bounce House",
+    "variations": [
+      "UCF"
+    ],
+    "aliases": [
+      "44,206"
+    ]
+  },
+  {
+    "key": "pittsburgh",
+    "league": "ncaa_fbs",
+    "city": "68,400",
+    "venue": "Acrisure Stadium",
+    "variations": [
+      "Pittsburgh"
+    ],
+    "aliases": [
+      "68,400"
+    ]
+  },
+  {
+    "key": "new mexico state",
+    "league": "ncaa_fbs",
+    "city": "28,853",
+    "venue": "Aggie Memorial Stadium",
+    "variations": [
+      "New Mexico State"
+    ],
+    "aliases": [
+      "28,853"
+    ]
+  },
+  {
+    "key": "utsa",
+    "league": "ncaa_fbs",
+    "city": "64,000",
+    "venue": "Alamodome",
+    "variations": [
+      "UTSA"
+    ],
+    "aliases": [
+      "64,000"
+    ]
+  },
+  {
+    "key": "washington",
+    "league": "ncaa_fbs",
+    "city": "70,083",
+    "venue": "Alaska Airlines Field at Husky Stadium",
+    "variations": [
+      "Washington"
+    ],
+    "aliases": [
+      "70,083"
+    ]
+  },
+  {
+    "key": "boise state",
+    "league": "ncaa_fbs",
+    "city": "36,387",
+    "venue": "Albertsons Stadium",
+    "variations": [
+      "Boise State"
+    ],
+    "aliases": [
+      "36,387"
+    ]
+  },
+  {
+    "key": "wake forest",
+    "league": "ncaa_fbs",
+    "city": "31,500",
+    "venue": "Allegacy Federal Credit Union Stadium",
+    "variations": [
+      "Wake Forest"
+    ],
+    "aliases": [
+      "31,500"
+    ]
+  },
+  {
+    "key": "unlv",
+    "league": "ncaa_fbs",
+    "city": "65,000",
+    "venue": "Allegiant Stadium",
+    "variations": [
+      "UNLV"
+    ],
+    "aliases": [
+      "65,000"
+    ]
+  },
+  {
+    "key": "georgia southern",
+    "league": "ncaa_fbs",
+    "city": "25,000",
+    "venue": "Allen E. Paulson Stadium",
+    "variations": [
+      "Georgia Southern"
+    ],
+    "aliases": [
+      "25,000"
+    ]
+  },
+  {
+    "key": "boston college",
+    "league": "ncaa_fbs",
+    "city": "44,500",
+    "venue": "Alumni Stadium",
+    "variations": [
+      "Boston College"
+    ],
+    "aliases": [
+      "44,500"
+    ]
+  },
+  {
+    "key": "tcu",
+    "league": "ncaa_fbs",
+    "city": "47,000",
+    "venue": "Amon G. Carter Stadium",
+    "variations": [
+      "TCU"
+    ],
+    "aliases": [
+      "47,000"
+    ]
+  },
+  {
+    "key": "arizona",
+    "league": "ncaa_fbs",
+    "city": "50,782",
+    "venue": "Arizona Stadium",
+    "variations": [
+      "Arizona"
+    ],
+    "aliases": [
+      "50,782"
+    ]
+  },
+  {
+    "key": "liberty",
+    "league": "ncaa_fbs",
+    "city": "25,000",
+    "venue": "Arthur L. Williams Stadium",
+    "variations": [
+      "Liberty"
+    ],
+    "aliases": [
+      "25,000"
+    ]
+  },
+  {
+    "key": "oregon",
+    "league": "ncaa_fbs",
+    "city": "54,000 (standing room to 60,000)",
+    "venue": "Autzen Stadium",
+    "variations": [
+      "Oregon"
+    ],
+    "aliases": [
+      "54,000 (standing room to 60,000)"
+    ]
+  },
+  {
+    "key": "east carolina",
+    "league": "ncaa_fbs",
+    "city": "51,000",
+    "venue": "Bagwell Field at Dowdy–Ficklen Stadium",
+    "variations": [
+      "East Carolina"
+    ],
+    "aliases": [
+      "51,000"
+    ]
+  },
+  {
+    "key": "penn state",
+    "league": "ncaa_fbs",
+    "city": "106,572",
+    "venue": "Beaver Stadium",
+    "variations": [
+      "Penn State"
+    ],
+    "aliases": [
+      "106,572"
+    ]
+  },
+  {
+    "key": "tulane",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "Benson Field at Yulman Stadium",
+    "variations": [
+      "Tulane"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "kansas state",
+    "league": "ncaa_fbs",
+    "city": "50,000",
+    "venue": "Bill Snyder Family Football Stadium",
+    "variations": [
+      "Kansas State"
+    ],
+    "aliases": [
+      "50,000"
+    ]
+  },
+  {
+    "key": "army",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "Blaik Field at Michie Stadium",
+    "variations": [
+      "Army"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "florida state",
+    "league": "ncaa_fbs",
+    "city": "67,277",
+    "venue": "Bobby Bowden Field at Doak S. Campbell Stadium",
+    "variations": [
+      "Florida State"
+    ],
+    "aliases": [
+      "67,277"
+    ]
+  },
+  {
+    "key": "georgia tech",
+    "league": "ncaa_fbs",
+    "city": "51,913",
+    "venue": "Bobby Dodd Stadium at Hyundai Field",
+    "variations": [
+      "Georgia Tech"
+    ],
+    "aliases": [
+      "51,913"
+    ]
+  },
+  {
+    "key": "oklahoma state",
+    "league": "ncaa_fbs",
+    "city": "52,305",
+    "venue": "Boone Pickens Stadium",
+    "variations": [
+      "Oklahoma State"
+    ],
+    "aliases": [
+      "52,305"
+    ]
+  },
+  {
+    "key": "james madison",
+    "league": "ncaa_fbs",
+    "city": "24,877",
+    "venue": "Bridgeforth Stadium",
+    "variations": [
+      "James Madison"
+    ],
+    "aliases": [
+      "24,877"
+    ]
+  },
+  {
+    "key": "niu",
+    "league": "ncaa_fbs",
+    "city": "28,211",
+    "venue": "Brigham Field at Huskie Stadium",
+    "variations": [
+      "NIU"
+    ],
+    "aliases": [
+      "28,211"
+    ]
+  },
+  {
+    "key": "duke",
+    "league": "ncaa_fbs",
+    "city": "35,018",
+    "venue": "Brooks Field at Wallace Wade Stadium",
+    "variations": [
+      "Duke"
+    ],
+    "aliases": [
+      "35,018"
+    ]
+  },
+  {
+    "key": "coastal carolina",
+    "league": "ncaa_fbs",
+    "city": "21,000",
+    "venue": "Brooks Stadium",
+    "variations": [
+      "Coastal Carolina"
+    ],
+    "aliases": [
+      "21,000"
+    ]
+  },
+  {
+    "key": "jacksonville state",
+    "league": "ncaa_fbs",
+    "city": "22,500",
+    "venue": "Burgess–Snow Field at AmFirst Stadium",
+    "variations": [
+      "Jacksonville State"
+    ],
+    "aliases": [
+      "22,500"
+    ]
+  },
+  {
+    "key": "louisiana",
+    "league": "ncaa_fbs",
+    "city": "20,000",
+    "venue": "Cajun Field",
+    "variations": [
+      "Louisiana"
+    ],
+    "aliases": [
+      "20,000"
+    ]
+  },
+  {
+    "key": "california",
+    "league": "ncaa_fbs",
+    "city": "62,467",
+    "venue": "California Memorial Stadium",
+    "variations": [
+      "California"
+    ],
+    "aliases": [
+      "62,467"
+    ]
+  },
+  {
+    "key": "wisconsin",
+    "league": "ncaa_fbs",
+    "city": "76,057",
+    "venue": "Camp Randall Stadium",
+    "variations": [
+      "Wisconsin"
+    ],
+    "aliases": [
+      "76,057"
+    ]
+  },
+  {
+    "key": "virginia",
+    "league": "ncaa_fbs",
+    "city": "61,500",
+    "venue": "Carl Smith Center, Home of David A. Harrison III Field at Scott Stadium",
+    "variations": [
+      "Virginia"
+    ],
+    "aliases": [
+      "61,500"
+    ]
+  },
+  {
+    "key": "southern miss",
+    "league": "ncaa_fbs",
+    "city": "36,000",
+    "venue": "Carlisle-Faulkner Field at M.M. Roberts Stadium",
+    "variations": [
+      "Southern Miss"
+    ],
+    "aliases": [
+      "36,000"
+    ]
+  },
+  {
+    "key": "san jose state",
+    "league": "ncaa_fbs",
+    "city": "18,203",
+    "venue": "CEFCU Stadium",
+    "variations": [
+      "San Jose State"
+    ],
+    "aliases": [
+      "18,203"
+    ]
+  },
+  {
+    "key": "arkansas state",
+    "league": "ncaa_fbs",
+    "city": "30,406",
+    "venue": "Centennial Bank Stadium",
+    "variations": [
+      "Arkansas State"
+    ],
+    "aliases": [
+      "30,406"
+    ]
+  },
+  {
+    "key": "georgia state",
+    "league": "ncaa_fbs",
+    "city": "24,333",
+    "venue": "Center Parc Stadium",
+    "variations": [
+      "Georgia State"
+    ],
+    "aliases": [
+      "24,333"
+    ]
+  },
+  {
+    "key": "hawaiʻi",
+    "league": "ncaa_fbs",
+    "city": "15,194 (9,346 before 2023)",
+    "venue": "Clarence T. C. Ching Athletics Complex",
+    "variations": [
+      "Hawaiʻi"
+    ],
+    "aliases": [
+      "15,194 (9,346 before 2023)"
+    ]
+  },
+  {
+    "key": "texas",
+    "league": "ncaa_fbs",
+    "city": "100,119",
+    "venue": "Darrell K Royal–Texas Memorial Stadium",
+    "variations": [
+      "Texas"
+    ],
+    "aliases": [
+      "100,119"
+    ]
+  },
+  {
+    "key": "kansas",
+    "league": "ncaa_fbs",
+    "city": "41,525",
+    "venue": "David Booth Kansas Memorial Stadium",
+    "variations": [
+      "Kansas"
+    ],
+    "aliases": [
+      "41,525"
+    ]
+  },
+  {
+    "key": "mississippi state",
+    "league": "ncaa_fbs",
+    "city": "60,311",
+    "venue": "Davis Wade Stadium at Scott Field",
+    "variations": [
+      "Mississippi State"
+    ],
+    "aliases": [
+      "60,311"
+    ]
+  },
+  {
+    "key": "north texas",
+    "league": "ncaa_fbs",
+    "city": "30,100",
+    "venue": "DATCU Stadium",
+    "variations": [
+      "North Texas"
+    ],
+    "aliases": [
+      "30,100"
+    ]
+  },
+  {
+    "key": "delaware",
+    "league": "ncaa_fbs",
+    "city": "18,500",
+    "venue": "Delaware Stadium",
+    "variations": [
+      "Delaware"
+    ],
+    "aliases": [
+      "18,500"
+    ]
+  },
+  {
+    "key": "kent state",
+    "league": "ncaa_fbs",
+    "city": "25,319",
+    "venue": "Dix Stadium",
+    "variations": [
+      "Kent State"
+    ],
+    "aliases": [
+      "25,319"
+    ]
+  },
+  {
+    "key": "arkansas",
+    "league": "ncaa_fbs",
+    "city": "76,212",
+    "venue": "Donald W. Reynolds Razorback Stadium, Frank Broyles Field",
+    "variations": [
+      "Arkansas"
+    ],
+    "aliases": [
+      "76,212"
+    ]
+  },
+  {
+    "key": "bowling green",
+    "league": "ncaa_fbs",
+    "city": "33,572",
+    "venue": "Doyt L. Perry Stadium",
+    "variations": [
+      "Bowling Green"
+    ],
+    "aliases": [
+      "33,572"
+    ]
+  },
+  {
+    "key": "sam houston",
+    "league": "ncaa_fbs",
+    "city": "14,000",
+    "venue": "Elliott T. Bowers Stadium",
+    "variations": [
+      "Sam Houston"
+    ],
+    "aliases": [
+      "14,000"
+    ]
+  },
+  {
+    "key": "air force",
+    "league": "ncaa_fbs",
+    "city": "39,441",
+    "venue": "Falcon Stadium",
+    "variations": [
+      "Air Force"
+    ],
+    "aliases": [
+      "39,441"
+    ]
+  },
+  {
+    "key": "missouri",
+    "league": "ncaa_fbs",
+    "city": "62,621",
+    "venue": "Faurot Field at Memorial Stadium",
+    "variations": [
+      "Missouri"
+    ],
+    "aliases": [
+      "62,621"
+    ]
+  },
+  {
+    "key": "kennesaw state",
+    "league": "ncaa_fbs",
+    "city": "10,200",
+    "venue": "Fifth Third Stadium",
+    "variations": [
+      "Kennesaw State"
+    ],
+    "aliases": [
+      "10,200"
+    ]
+  },
+  {
+    "key": "vanderbilt",
+    "league": "ncaa_fbs",
+    "city": "40,350",
+    "venue": "FirstBank Stadium",
+    "variations": [
+      "Vanderbilt"
+    ],
+    "aliases": [
+      "40,350"
+    ]
+  },
+  {
+    "key": "colorado",
+    "league": "ncaa_fbs",
+    "city": "50,183",
+    "venue": "Folsom Field",
+    "variations": [
+      "Colorado"
+    ],
+    "aliases": [
+      "50,183"
+    ]
+  },
+  {
+    "key": "clemson",
+    "league": "ncaa_fbs",
+    "city": "81,500",
+    "venue": "Frank Howard Field at Clemson Memorial Stadium",
+    "variations": [
+      "Clemson"
+    ],
+    "aliases": [
+      "81,500"
+    ]
+  },
+  {
+    "key": "arizona state",
+    "league": "ncaa_fbs",
+    "city": "53,599",
+    "venue": "Frank Kush Field, Home of the ASU Sun Devils/Mountain America Stadium",
+    "variations": [
+      "Arizona State"
+    ],
+    "aliases": [
+      "53,599"
+    ]
+  },
+  {
+    "key": "miami",
+    "league": "ncaa_fbs",
+    "city": "30,087",
+    "venue": "Fred C. Yager Stadium",
+    "variations": [
+      "Miami"
+    ],
+    "aliases": [
+      "30,087"
+    ]
+  },
+  {
+    "key": "oklahoma",
+    "league": "ncaa_fbs",
+    "city": "80,126",
+    "venue": "Gaylord Family Oklahoma Memorial Stadium",
+    "variations": [
+      "Oklahoma"
+    ],
+    "aliases": [
+      "80,126"
+    ]
+  },
+  {
+    "key": "smu",
+    "league": "ncaa_fbs",
+    "city": "32,000",
+    "venue": "Gerald J. Ford Stadium",
+    "variations": [
+      "SMU"
+    ],
+    "aliases": [
+      "32,000"
+    ]
+  },
+  {
+    "key": "toledo",
+    "league": "ncaa_fbs",
+    "city": "26,038",
+    "venue": "Glass Bowl",
+    "variations": [
+      "Toledo"
+    ],
+    "aliases": [
+      "26,038"
+    ]
+  },
+  {
+    "key": "south alabama",
+    "league": "ncaa_fbs",
+    "city": "25,450",
+    "venue": "Hancock Whitney Stadium",
+    "variations": [
+      "South Alabama"
+    ],
+    "aliases": [
+      "25,450"
+    ]
+  },
+  {
+    "key": "western kentucky",
+    "league": "ncaa_fbs",
+    "city": "22,113",
+    "venue": "Houchens Industries–L. T. Smith Stadium at Jimmy Feix Field",
+    "variations": [
+      "Western Kentucky"
+    ],
+    "aliases": [
+      "22,113"
+    ]
+  },
+  {
+    "key": "florida atlantic",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "Howard Schnellenberger Field at Flagler Credit Union Stadium",
+    "variations": [
+      "Florida Atlantic"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "minnesota",
+    "league": "ncaa_fbs",
+    "city": "50,805",
+    "venue": "Huntington Bank Stadium",
+    "variations": [
+      "Minnesota"
+    ],
+    "aliases": [
+      "50,805"
+    ]
+  },
+  {
+    "key": "akron",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "InfoCision Stadium–Summa Field",
+    "variations": [
+      "Akron"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "syracuse",
+    "league": "ncaa_fbs",
+    "city": "42,784",
+    "venue": "JMA Wireless Dome",
+    "variations": [
+      "Syracuse"
+    ],
+    "aliases": [
+      "42,784"
+    ]
+  },
+  {
+    "key": "iowa state",
+    "league": "ncaa_fbs",
+    "city": "61,500",
+    "venue": "Jack Trice Stadium",
+    "variations": [
+      "Iowa State"
+    ],
+    "aliases": [
+      "61,500"
+    ]
+  },
+  {
+    "key": "texas state",
+    "league": "ncaa_fbs",
+    "city": "28,388",
+    "venue": "Jim Wacker Field at UFCU Stadium",
+    "variations": [
+      "Texas State"
+    ],
+    "aliases": [
+      "28,388"
+    ]
+  },
+  {
+    "key": "marshall",
+    "league": "ncaa_fbs",
+    "city": "30,475",
+    "venue": "Joan C. Edwards Stadium",
+    "variations": [
+      "Marshall"
+    ],
+    "aliases": [
+      "30,475"
+    ]
+  },
+  {
+    "key": "louisiana tech",
+    "league": "ncaa_fbs",
+    "city": "28,562",
+    "venue": "Joe Aillet Stadium",
+    "variations": [
+      "Louisiana Tech"
+    ],
+    "aliases": [
+      "28,562"
+    ]
+  },
+  {
+    "key": "houston",
+    "league": "ncaa_fbs",
+    "city": "39,700",
+    "venue": "John O'Quinn Field at Space City Financial Stadium",
+    "variations": [
+      "Houston"
+    ],
+    "aliases": [
+      "39,700"
+    ]
+  },
+  {
+    "key": "middle tennessee",
+    "league": "ncaa_fbs",
+    "city": "27,303",
+    "venue": "Johnny \"Red\" Floyd Stadium",
+    "variations": [
+      "Middle Tennessee"
+    ],
+    "aliases": [
+      "27,303"
+    ]
+  },
+  {
+    "key": "wyoming",
+    "league": "ncaa_fbs",
+    "city": "29,811",
+    "venue": "Jonah Field at War Memorial Stadium",
+    "variations": [
+      "Wyoming"
+    ],
+    "aliases": [
+      "29,811"
+    ]
+  },
+  {
+    "key": "texas tech",
+    "league": "ncaa_fbs",
+    "city": "60,229",
+    "venue": "Jones AT&T Stadium",
+    "variations": [
+      "Texas Tech"
+    ],
+    "aliases": [
+      "60,229"
+    ]
+  },
+  {
+    "key": "central michigan",
+    "league": "ncaa_fbs",
+    "city": "35,127",
+    "venue": "Kramer/Deromedi Field at Kelly/Shorts Stadium",
+    "variations": [
+      "Central Michigan"
+    ],
+    "aliases": [
+      "35,127"
+    ]
+  },
+  {
+    "key": "north carolina",
+    "league": "ncaa_fbs",
+    "city": "50,500",
+    "venue": "Kenan Stadium",
+    "variations": [
+      "North Carolina"
+    ],
+    "aliases": [
+      "50,500"
+    ]
+  },
+  {
+    "key": "appalachian state",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "Kidd Brewer Stadium",
+    "variations": [
+      "Appalachian State"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "iowa",
+    "league": "ncaa_fbs",
+    "city": "69,250",
+    "venue": "Kinnick Stadium",
+    "variations": [
+      "Iowa"
+    ],
+    "aliases": [
+      "69,250"
+    ]
+  },
+  {
+    "key": "old dominion",
+    "league": "ncaa_fbs",
+    "city": "21,944",
+    "venue": "Kornblau Field at S.B. Ballard Stadium",
+    "variations": [
+      "Old Dominion"
+    ],
+    "aliases": [
+      "21,944"
+    ]
+  },
+  {
+    "key": "kentucky",
+    "league": "ncaa_fbs",
+    "city": "61,000",
+    "venue": "Kroger Field at C.M. Newton Grounds",
+    "variations": [
+      "Kentucky"
+    ],
+    "aliases": [
+      "61,000"
+    ]
+  },
+  {
+    "key": "texas a&m",
+    "league": "ncaa_fbs",
+    "city": "102,733",
+    "venue": "Kyle Field",
+    "variations": [
+      "Texas A&M"
+    ],
+    "aliases": [
+      "102,733"
+    ]
+  },
+  {
+    "key": "louisville",
+    "league": "ncaa_fbs",
+    "city": "60,800",
+    "venue": "L&N Federal Credit Union Stadium",
+    "variations": [
+      "Louisville"
+    ],
+    "aliases": [
+      "60,800"
+    ]
+  },
+  {
+    "key": "virginia tech",
+    "league": "ncaa_fbs",
+    "city": "65,632",
+    "venue": "Lane Stadium/Worsham Field",
+    "variations": [
+      "Virginia Tech"
+    ],
+    "aliases": [
+      "65,632"
+    ]
+  },
+  {
+    "key": "byu",
+    "league": "ncaa_fbs",
+    "city": "62,073",
+    "venue": "LaVell Edwards Stadium",
+    "variations": [
+      "BYU"
+    ],
+    "aliases": [
+      "62,073"
+    ]
+  },
+  {
+    "key": "temple",
+    "league": "ncaa_fbs",
+    "city": "67,594",
+    "venue": "Lincoln Financial Field",
+    "variations": [
+      "Temple"
+    ],
+    "aliases": [
+      "67,594"
+    ]
+  },
+  {
+    "key": "usc",
+    "league": "ncaa_fbs",
+    "city": "77,500",
+    "venue": "Los Angeles Memorial Coliseum",
+    "variations": [
+      "USC"
+    ],
+    "aliases": [
+      "77,500"
+    ]
+  },
+  {
+    "key": "nevada",
+    "league": "ncaa_fbs",
+    "city": "27,000",
+    "venue": "Mackay Stadium",
+    "variations": [
+      "Nevada"
+    ],
+    "aliases": [
+      "27,000"
+    ]
+  },
+  {
+    "key": "louisiana-monroe",
+    "league": "ncaa_fbs",
+    "city": "27,617",
+    "venue": "Malone Stadium",
+    "variations": [
+      "Louisiana-Monroe"
+    ],
+    "aliases": [
+      "27,617"
+    ]
+  },
+  {
+    "key": "washington state",
+    "league": "ncaa_fbs",
+    "city": "32,952",
+    "venue": "Martin Stadium",
+    "variations": [
+      "Washington State"
+    ],
+    "aliases": [
+      "32,952"
+    ]
+  },
+  {
+    "key": "charlotte",
+    "league": "ncaa_fbs",
+    "city": "15,314",
+    "venue": "McColl–Richardson Field at Jerry Richardson Stadium",
+    "variations": [
+      "Charlotte"
+    ],
+    "aliases": [
+      "15,314"
+    ]
+  },
+  {
+    "key": "baylor",
+    "league": "ncaa_fbs",
+    "city": "45,140",
+    "venue": "McLane Stadium",
+    "variations": [
+      "Baylor"
+    ],
+    "aliases": [
+      "45,140"
+    ]
+  },
+  {
+    "key": "illinois",
+    "league": "ncaa_fbs",
+    "city": "60,670",
+    "venue": "Memorial Stadium",
+    "variations": [
+      "Illinois"
+    ],
+    "aliases": [
+      "60,670"
+    ]
+  },
+  {
+    "key": "indiana",
+    "league": "ncaa_fbs",
+    "city": "52,626",
+    "venue": "Memorial Stadium",
+    "variations": [
+      "Indiana"
+    ],
+    "aliases": [
+      "52,626"
+    ]
+  },
+  {
+    "key": "nebraska",
+    "league": "ncaa_fbs",
+    "city": "85,458",
+    "venue": "Memorial Stadium, Tom Osborne Field",
+    "variations": [
+      "Nebraska"
+    ],
+    "aliases": [
+      "85,458"
+    ]
+  },
+  {
+    "key": "utah state",
+    "league": "ncaa_fbs",
+    "city": "25,513",
+    "venue": "Merlin Olsen Field at Maverik Stadium",
+    "variations": [
+      "Utah State"
+    ],
+    "aliases": [
+      "25,513"
+    ]
+  },
+  {
+    "key": "michigan",
+    "league": "ncaa_fbs",
+    "city": "107,601",
+    "venue": "Michigan Stadium",
+    "variations": [
+      "Michigan"
+    ],
+    "aliases": [
+      "107,601"
+    ]
+  },
+  {
+    "key": "west virginia",
+    "league": "ncaa_fbs",
+    "city": "60,000",
+    "venue": "Mountaineer Field at Milan Puskar Stadium",
+    "variations": [
+      "West Virginia"
+    ],
+    "aliases": [
+      "60,000"
+    ]
+  },
+  {
+    "key": "navy",
+    "league": "ncaa_fbs",
+    "city": "34,000",
+    "venue": "Navy–Marine Corps Memorial Stadium",
+    "variations": [
+      "Navy"
+    ],
+    "aliases": [
+      "34,000"
+    ]
+  },
+  {
+    "key": "tennessee",
+    "league": "ncaa_fbs",
+    "city": "101,915",
+    "venue": "Neyland Stadium",
+    "variations": [
+      "Tennessee"
+    ],
+    "aliases": [
+      "101,915"
+    ]
+  },
+  {
+    "key": "cincinnati",
+    "league": "ncaa_fbs",
+    "city": "38,088",
+    "venue": "Nippert Stadium",
+    "variations": [
+      "Cincinnati"
+    ],
+    "aliases": [
+      "38,088"
+    ]
+  },
+  {
+    "key": "northwestern",
+    "league": "ncaa_fbs",
+    "city": "12,023",
+    "venue": "Northwestern Medicine Field at Martin Stadium",
+    "variations": [
+      "Northwestern"
+    ],
+    "aliases": [
+      "12,023"
+    ]
+  },
+  {
+    "key": "notre dame",
+    "league": "ncaa_fbs",
+    "city": "77,622",
+    "venue": "Notre Dame Stadium",
+    "variations": [
+      "Notre Dame"
+    ],
+    "aliases": [
+      "77,622"
+    ]
+  },
+  {
+    "key": "ohio state",
+    "league": "ncaa_fbs",
+    "city": "102,780",
+    "venue": "Ohio Stadium",
+    "variations": [
+      "Ohio State"
+    ],
+    "aliases": [
+      "102,780"
+    ]
+  },
+  {
+    "key": "auburn",
+    "league": "ncaa_fbs",
+    "city": "88,043",
+    "venue": "Pat Dye Field at Jordan–Hare Stadium",
+    "variations": [
+      "Auburn"
+    ],
+    "aliases": [
+      "88,043"
+    ]
+  },
+  {
+    "key": "ohio",
+    "league": "ncaa_fbs",
+    "city": "24,000",
+    "venue": "Frank Solich Field at Peden Stadium",
+    "variations": [
+      "Ohio"
+    ],
+    "aliases": [
+      "24,000"
+    ]
+  },
+  {
+    "key": "fiu",
+    "league": "ncaa_fbs",
+    "city": "20,000",
+    "venue": "Pitbull Stadium",
+    "variations": [
+      "FIU"
+    ],
+    "aliases": [
+      "20,000"
+    ]
+  },
+  {
+    "key": "uconn",
+    "league": "ncaa_fbs",
+    "city": "38,000",
+    "venue": "Pratt & Whitney Stadium at Rentschler Field",
+    "variations": [
+      "UConn"
+    ],
+    "aliases": [
+      "38,000"
+    ]
+  },
+  {
+    "key": "uab",
+    "league": "ncaa_fbs",
+    "city": "47,100",
+    "venue": "Protective Stadium",
+    "variations": [
+      "UAB"
+    ],
+    "aliases": [
+      "47,100"
+    ]
+  },
+  {
+    "key": "south florida",
+    "league": "ncaa_fbs",
+    "city": "65,857",
+    "venue": "Raymond James Stadium",
+    "variations": [
+      "South Florida"
+    ],
+    "aliases": [
+      "65,857"
+    ]
+  },
+  {
+    "key": "oregon state",
+    "league": "ncaa_fbs",
+    "city": "35,548",
+    "venue": "Reser Stadium",
+    "variations": [
+      "Oregon State"
+    ],
+    "aliases": [
+      "35,548"
+    ]
+  },
+  {
+    "key": "rice",
+    "league": "ncaa_fbs",
+    "city": "47,000",
+    "venue": "Rice Stadium",
+    "variations": [
+      "Rice"
+    ],
+    "aliases": [
+      "47,000"
+    ]
+  },
+  {
+    "key": "utah",
+    "league": "ncaa_fbs",
+    "city": "51,444",
+    "venue": "Rice–Eccles Stadium",
+    "variations": [
+      "Utah"
+    ],
+    "aliases": [
+      "51,444"
+    ]
+  },
+  {
+    "key": "missouri state",
+    "league": "ncaa_fbs",
+    "city": "17,500",
+    "venue": "Robert W. Plaster Stadium",
+    "variations": [
+      "Missouri State"
+    ],
+    "aliases": [
+      "17,500"
+    ]
+  },
+  {
+    "key": "ucla",
+    "league": "ncaa_fbs",
+    "city": "89,702",
+    "venue": "Rose Bowl Stadium",
+    "variations": [
+      "UCLA"
+    ],
+    "aliases": [
+      "89,702"
+    ]
+  },
+  {
+    "key": "purdue",
+    "league": "ncaa_fbs",
+    "city": "61,441",
+    "venue": "Ross–Ade Stadium",
+    "variations": [
+      "Purdue"
+    ],
+    "aliases": [
+      "61,441"
+    ]
+  },
+  {
+    "key": "eastern michigan",
+    "league": "ncaa_fbs",
+    "city": "26,188",
+    "venue": "Rynearson Stadium",
+    "variations": [
+      "Eastern Michigan"
+    ],
+    "aliases": [
+      "26,188"
+    ]
+  },
+  {
+    "key": "alabama",
+    "league": "ncaa_fbs",
+    "city": "100,077",
+    "venue": "Saban Field at Bryant–Denny Stadium",
+    "variations": [
+      "Alabama"
+    ],
+    "aliases": [
+      "100,077"
+    ]
+  },
+  {
+    "key": "georgia",
+    "league": "ncaa_fbs",
+    "city": "93,033",
+    "venue": "Sanford Stadium",
+    "variations": [
+      "Georgia"
+    ],
+    "aliases": [
+      "93,033"
+    ]
+  },
+  {
+    "key": "ball state",
+    "league": "ncaa_fbs",
+    "city": "22,500",
+    "venue": "Scheumann Stadium",
+    "variations": [
+      "Ball State"
+    ],
+    "aliases": [
+      "22,500"
+    ]
+  },
+  {
+    "key": "maryland",
+    "league": "ncaa_fbs",
+    "city": "46,185",
+    "venue": "SECU Stadium",
+    "variations": [
+      "Maryland"
+    ],
+    "aliases": [
+      "46,185"
+    ]
+  },
+  {
+    "key": "rutgers",
+    "league": "ncaa_fbs",
+    "city": "52,454",
+    "venue": "SHI Stadium",
+    "variations": [
+      "Rutgers"
+    ],
+    "aliases": [
+      "52,454"
+    ]
+  },
+  {
+    "key": "memphis",
+    "league": "ncaa_fbs",
+    "city": "50,000",
+    "venue": "Simmons Bank Liberty Stadium",
+    "variations": [
+      "Memphis"
+    ],
+    "aliases": [
+      "50,000"
+    ]
+  },
+  {
+    "key": "tulsa",
+    "league": "ncaa_fbs",
+    "city": "30,000",
+    "venue": "Skelly Field at H. A. Chapman Stadium",
+    "variations": [
+      "Tulsa"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "san diego state",
+    "league": "ncaa_fbs",
+    "city": "35,000",
+    "venue": "Snapdragon Stadium",
+    "variations": [
+      "San Diego State"
+    ],
+    "aliases": [
+      "35,000"
+    ]
+  },
+  {
+    "key": "colorado state",
+    "league": "ncaa_fbs",
+    "city": "41,000",
+    "venue": "Sonny Lubick Field at Canvas Stadium",
+    "variations": [
+      "Colorado State"
+    ],
+    "aliases": [
+      "41,000"
+    ]
+  },
+  {
+    "key": "michigan state",
+    "league": "ncaa_fbs",
+    "city": "74,866",
+    "venue": "Spartan Stadium",
+    "variations": [
+      "Michigan State"
+    ],
+    "aliases": [
+      "74,866"
+    ]
+  },
+  {
+    "key": "stanford",
+    "league": "ncaa_fbs",
+    "city": "50,424",
+    "venue": "Stanford Stadium",
+    "variations": [
+      "Stanford"
+    ],
+    "aliases": [
+      "50,424"
+    ]
+  },
+  {
+    "key": "florida",
+    "league": "ncaa_fbs",
+    "city": "88,548",
+    "venue": "Steve Spurrier-Florida Field at Ben Hill Griffin Stadium",
+    "variations": [
+      "Florida"
+    ],
+    "aliases": [
+      "88,548"
+    ]
+  },
+  {
+    "key": "utep",
+    "league": "ncaa_fbs",
+    "city": "51,500",
+    "venue": "Sun Bowl Stadium",
+    "variations": [
+      "UTEP"
+    ],
+    "aliases": [
+      "51,500"
+    ]
+  },
+  {
+    "key": "lsu",
+    "league": "ncaa_fbs",
+    "city": "102,321",
+    "venue": "Tiger Stadium",
+    "variations": [
+      "LSU"
+    ],
+    "aliases": [
+      "102,321"
+    ]
+  },
+  {
+    "key": "buffalo",
+    "league": "ncaa_fbs",
+    "city": "25,013",
+    "venue": "UB Stadium",
+    "variations": [
+      "Buffalo"
+    ],
+    "aliases": [
+      "25,013"
+    ]
+  },
+  {
+    "key": "new mexico",
+    "league": "ncaa_fbs",
+    "city": "39,224",
+    "venue": "University Stadium",
+    "variations": [
+      "New Mexico"
+    ],
+    "aliases": [
+      "39,224"
+    ]
+  },
+  {
+    "key": "fresno state",
+    "league": "ncaa_fbs",
+    "city": "40,727",
+    "venue": "Valley Children's Stadium",
+    "variations": [
+      "Fresno State"
+    ],
+    "aliases": [
+      "40,727"
+    ]
+  },
+  {
+    "key": "mississippi",
+    "league": "ncaa_fbs",
+    "city": "64,038",
+    "venue": "Vaught–Hemingway Stadium at Hollingsworth Field",
+    "variations": [
+      "Mississippi"
+    ],
+    "aliases": [
+      "64,038"
+    ]
+  },
+  {
+    "key": "troy",
+    "league": "ncaa_fbs",
+    "city": "30,470",
+    "venue": "Veterans Memorial Stadium at Larry Blakeney Field",
+    "variations": [
+      "Troy"
+    ],
+    "aliases": [
+      "30,470"
+    ]
+  },
+  {
+    "key": "western michigan",
+    "league": "ncaa_fbs",
+    "city": "36,361",
+    "venue": "Waldo Stadium",
+    "variations": [
+      "Western Michigan"
+    ],
+    "aliases": [
+      "36,361"
+    ]
+  },
+  {
+    "key": "umass",
+    "league": "ncaa_fbs",
+    "city": "17,000(expandable to 21,430)",
+    "venue": "Warren McGuirk Alumni Stadium",
+    "variations": [
+      "UMass"
+    ],
+    "aliases": [
+      "17,000(expandable to 21,430)"
+    ]
+  },
+  {
+    "key": "nc state",
+    "league": "ncaa_fbs",
+    "city": "56,919",
+    "venue": "Wayne Day Family Field at Carter–Finley Stadium",
+    "variations": [
+      "NC State"
+    ],
+    "aliases": [
+      "56,919"
+    ]
+  },
+  {
+    "key": "south carolina",
+    "league": "ncaa_fbs",
+    "city": "77,559",
+    "venue": "Williams–Brice Stadium",
+    "variations": [
+      "South Carolina"
+    ],
+    "aliases": [
+      "77,559"
+    ]
+  },
+  {
+    "key": "southern jaguars",
+    "league": "ncaa_fcs",
+    "city": "28,500",
+    "venue": "A. W. Mumford Stadium",
+    "variations": [
+      "Southern Jaguars"
+    ],
+    "aliases": [
+      "28,500"
+    ]
+  },
+  {
+    "key": "north dakota fighting hawks",
+    "league": "ncaa_fcs",
+    "city": "12,283",
+    "venue": "Alerus Center",
+    "variations": [
+      "North Dakota Fighting Hawks"
+    ],
+    "aliases": [
+      "12,283"
+    ]
+  },
+  {
+    "key": "maine black bears",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Alfond Stadium",
+    "variations": [
+      "Maine Black Bears"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "vmi keydets",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Alumni Memorial Field",
+    "variations": [
+      "VMI Keydets"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "delaware state hornets",
+    "league": "ncaa_fcs",
+    "city": "7,000",
+    "venue": "Alumni Stadium",
+    "variations": [
+      "Delaware State Hornets"
+    ],
+    "aliases": [
+      "7,000"
+    ]
+  },
+  {
+    "key": "abilene christian wildcats",
+    "league": "ncaa_fcs",
+    "city": "12,000",
+    "venue": "Anthony Field at Wildcat Stadium",
+    "variations": [
+      "Abilene Christian Wildcats"
+    ],
+    "aliases": [
+      "12,000"
+    ]
+  },
+  {
+    "key": "hampton pirates",
+    "league": "ncaa_fcs",
+    "city": "12,000",
+    "venue": "Armstrong Stadium",
+    "variations": [
+      "Hampton Pirates"
+    ],
+    "aliases": [
+      "12,000"
+    ]
+  },
+  {
+    "key": "duquesne dukes",
+    "league": "ncaa_fcs",
+    "city": "2,200",
+    "venue": "Arthur J. Rooney Athletic Field",
+    "variations": [
+      "Duquesne Dukes"
+    ],
+    "aliases": [
+      "2,200"
+    ]
+  },
+  {
+    "key": "central connecticut blue devils",
+    "league": "ncaa_fcs",
+    "city": "5,500",
+    "venue": "Arute Field",
+    "variations": [
+      "Central Connecticut Blue Devils"
+    ],
+    "aliases": [
+      "5,500"
+    ]
+  },
+  {
+    "key": "alabama state hornets",
+    "league": "ncaa_fcs",
+    "city": "26,500",
+    "venue": "ASU Stadium",
+    "variations": [
+      "Alabama State Hornets"
+    ],
+    "aliases": [
+      "26,500"
+    ]
+  },
+  {
+    "key": "presbyterian blue hose",
+    "league": "ncaa_fcs",
+    "city": "6,500",
+    "venue": "Bailey Memorial Stadium",
+    "variations": [
+      "Presbyterian Blue Hose"
+    ],
+    "aliases": [
+      "6,500"
+    ]
+  },
+  {
+    "key": "campbell fighting camels",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "Barker–Lane Stadium",
+    "variations": [
+      "Campbell Fighting Camels"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "bryant bulldogs",
+    "league": "ncaa_fcs",
+    "city": "4,400",
+    "venue": "Beirne Stadium",
+    "variations": [
+      "Bryant Bulldogs"
+    ],
+    "aliases": [
+      "4,400"
+    ]
+  },
+  {
+    "key": "liu sharks",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Bethpage Federal Credit Union Stadium",
+    "variations": [
+      "LIU Sharks"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "albany great danes",
+    "league": "ncaa_fcs",
+    "city": "8,500",
+    "venue": "Bob Ford Field at Tom & Mary Casey Stadium",
+    "variations": [
+      "Albany Great Danes"
+    ],
+    "aliases": [
+      "8,500"
+    ]
+  },
+  {
+    "key": "montana state bobcats",
+    "league": "ncaa_fcs",
+    "city": "20,767",
+    "venue": "Bobcat Stadium",
+    "variations": [
+      "Montana State Bobcats"
+    ],
+    "aliases": [
+      "20,767"
+    ]
+  },
+  {
+    "key": "florida a&m rattlers",
+    "league": "ncaa_fcs",
+    "city": "19,633",
+    "venue": "Bragg Memorial Stadium",
+    "variations": [
+      "Florida A&M Rattlers"
+    ],
+    "aliases": [
+      "19,633"
+    ]
+  },
+  {
+    "key": "north alabama lions",
+    "league": "ncaa_fcs",
+    "city": "14,215",
+    "venue": "Braly Municipal Stadium",
+    "variations": [
+      "North Alabama Lions"
+    ],
+    "aliases": [
+      "14,215"
+    ]
+  },
+  {
+    "key": "valparaiso beacons",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "Brown Field",
+    "variations": [
+      "Valparaiso Beacons"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "brown bears",
+    "league": "ncaa_fcs",
+    "city": "20,000",
+    "venue": "Brown Stadium",
+    "variations": [
+      "Brown Bears"
+    ],
+    "aliases": [
+      "20,000"
+    ]
+  },
+  {
+    "key": "charleston southern buccaneers",
+    "league": "ncaa_fcs",
+    "city": "4,000",
+    "venue": "Buccaneer Field",
+    "variations": [
+      "Charleston Southern Buccaneers"
+    ],
+    "aliases": [
+      "4,000"
+    ]
+  },
+  {
+    "key": "butler bulldogs",
+    "league": "ncaa_fcs",
+    "city": "5,500",
+    "venue": "Bud and Jackie Sellick Bowl",
+    "variations": [
+      "Butler Bulldogs"
+    ],
+    "aliases": [
+      "5,500"
+    ]
+  },
+  {
+    "key": "sacred heart pioneers",
+    "league": "ncaa_fcs",
+    "city": "4,000",
+    "venue": "Campus Field",
+    "variations": [
+      "Sacred Heart Pioneers"
+    ],
+    "aliases": [
+      "4,000"
+    ]
+  },
+  {
+    "key": "alcorn state braves",
+    "league": "ncaa_fcs",
+    "city": "22,500",
+    "venue": "Casem-Spinks Stadium",
+    "variations": [
+      "Alcorn State Braves"
+    ],
+    "aliases": [
+      "22,500"
+    ]
+  },
+  {
+    "key": "bucknell bison",
+    "league": "ncaa_fcs",
+    "city": "13,100",
+    "venue": "Christy Mathewson–Memorial Stadium",
+    "variations": [
+      "Bucknell Bison"
+    ],
+    "aliases": [
+      "13,100"
+    ]
+  },
+  {
+    "key": "fordham rams",
+    "league": "ncaa_fcs",
+    "city": "7,000",
+    "venue": "Coffey Field",
+    "variations": [
+      "Fordham Rams"
+    ],
+    "aliases": [
+      "7,000"
+    ]
+  },
+  {
+    "key": "georgetown hoyas",
+    "league": "ncaa_fcs",
+    "city": "3,750",
+    "venue": "Cooper Field",
+    "variations": [
+      "Georgetown Hoyas"
+    ],
+    "aliases": [
+      "3,750"
+    ]
+  },
+  {
+    "key": "mcneese cowboys",
+    "league": "ncaa_fcs",
+    "city": "17,410",
+    "venue": "Navarre Stadium",
+    "variations": [
+      "McNeese Cowboys"
+    ],
+    "aliases": [
+      "17,410"
+    ]
+  },
+  {
+    "key": "colgate raiders",
+    "league": "ncaa_fcs",
+    "city": "10,221",
+    "venue": "Crown Field at Andy Kerr Stadium",
+    "variations": [
+      "Colgate Raiders"
+    ],
+    "aliases": [
+      "10,221"
+    ]
+  },
+  {
+    "key": "south dakota coyotes",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "DakotaDome",
+    "variations": [
+      "South Dakota Coyotes"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "south dakota state jackrabbits",
+    "league": "ncaa_fcs",
+    "city": "19,340",
+    "venue": "Dana J. Dykhouse Stadium",
+    "variations": [
+      "South Dakota State Jackrabbits"
+    ],
+    "aliases": [
+      "19,340"
+    ]
+  },
+  {
+    "key": "bethune–cookman wildcats",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Daytona Stadium",
+    "variations": [
+      "Bethune–Cookman Wildcats"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "saint francis red flash",
+    "league": "ncaa_fcs",
+    "city": "3,500",
+    "venue": "DeGol Field",
+    "variations": [
+      "Saint Francis Red Flash"
+    ],
+    "aliases": [
+      "3,500"
+    ]
+  },
+  {
+    "key": "drake bulldogs",
+    "league": "ncaa_fcs",
+    "city": "14,557",
+    "venue": "Drake Stadium",
+    "variations": [
+      "Drake Bulldogs"
+    ],
+    "aliases": [
+      "14,557"
+    ]
+  },
+  {
+    "key": "merrimack warriors",
+    "league": "ncaa_fcs",
+    "city": "3,500",
+    "venue": "Duane Stadium",
+    "variations": [
+      "Merrimack Warriors"
+    ],
+    "aliases": [
+      "3,500"
+    ]
+  },
+  {
+    "key": "richmond spiders",
+    "league": "ncaa_fcs",
+    "city": "8,400",
+    "venue": "E. Claiborne Robins Stadium",
+    "variations": [
+      "Richmond Spiders"
+    ],
+    "aliases": [
+      "8,400"
+    ]
+  },
+  {
+    "key": "western carolina catamounts",
+    "league": "ncaa_fcs",
+    "city": "13,742",
+    "venue": "E. J. Whitmire Stadium",
+    "variations": [
+      "Western Carolina Catamounts"
+    ],
+    "aliases": [
+      "13,742"
+    ]
+  },
+  {
+    "key": "southern utah thunderbirds",
+    "league": "ncaa_fcs",
+    "city": "8,500",
+    "venue": "Eccles Coliseum",
+    "variations": [
+      "Southern Utah Thunderbirds"
+    ],
+    "aliases": [
+      "8,500"
+    ]
+  },
+  {
+    "key": "grambling state tigers",
+    "league": "ncaa_fcs",
+    "city": "19,600",
+    "venue": "Eddie G. Robinson Memorial Stadium",
+    "variations": [
+      "Grambling State Tigers"
+    ],
+    "aliases": [
+      "19,600"
+    ]
+  },
+  {
+    "key": "east texas a&m lions",
+    "league": "ncaa_fcs",
+    "city": "11,582",
+    "venue": "Ernest Hawkins Field at Memorial Stadium",
+    "variations": [
+      "East Texas A&M Lions"
+    ],
+    "aliases": [
+      "11,582"
+    ]
+  },
+  {
+    "key": "gardner–webb runnin' bulldogs",
+    "league": "ncaa_fcs",
+    "city": "8,500",
+    "venue": "Ernest W. Spangler Stadium",
+    "variations": [
+      "Gardner–Webb Runnin' Bulldogs"
+    ],
+    "aliases": [
+      "8,500"
+    ]
+  },
+  {
+    "key": "central arkansas bears",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Estes Stadium",
+    "variations": [
+      "Central Arkansas Bears"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "north dakota state bison",
+    "league": "ncaa_fcs",
+    "city": "19,000",
+    "venue": "Fargodome",
+    "variations": [
+      "North Dakota State Bison"
+    ],
+    "aliases": [
+      "19,000"
+    ]
+  },
+  {
+    "key": "chattanooga mocs",
+    "league": "ncaa_fcs",
+    "city": "20,668",
+    "venue": "Finley Stadium",
+    "variations": [
+      "Chattanooga Mocs"
+    ],
+    "aliases": [
+      "20,668"
+    ]
+  },
+  {
+    "key": "lafayette leopards",
+    "league": "ncaa_fcs",
+    "city": "13,132",
+    "venue": "Fisher Stadium",
+    "variations": [
+      "Lafayette Leopards"
+    ],
+    "aliases": [
+      "13,132"
+    ]
+  },
+  {
+    "key": "holy cross crusaders",
+    "league": "ncaa_fcs",
+    "city": "23,500",
+    "venue": "Fitton Field",
+    "variations": [
+      "Holy Cross Crusaders"
+    ],
+    "aliases": [
+      "23,500"
+    ]
+  },
+  {
+    "key": "austin peay governors",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Fortera Stadium",
+    "variations": [
+      "Austin Peay Governors"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "penn quakers",
+    "league": "ncaa_fcs",
+    "city": "52,593",
+    "venue": "Franklin Field",
+    "variations": [
+      "Penn Quakers"
+    ],
+    "aliases": [
+      "52,593"
+    ]
+  },
+  {
+    "key": "incarnate word cardinals",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Gayle and Tom Benson Stadium",
+    "variations": [
+      "Incarnate Word Cardinals"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "wofford terriers",
+    "league": "ncaa_fcs",
+    "city": "13,000",
+    "venue": "Gibbs Stadium",
+    "variations": [
+      "Wofford Terriers"
+    ],
+    "aliases": [
+      "13,000"
+    ]
+  },
+  {
+    "key": "lehigh mountain hawks",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "Goodman Stadium",
+    "variations": [
+      "Lehigh Mountain Hawks"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "utah tech trailblazers",
+    "league": "ncaa_fcs",
+    "city": "10,500",
+    "venue": "Greater Zion Stadium",
+    "variations": [
+      "Utah Tech Trailblazers"
+    ],
+    "aliases": [
+      "10,500"
+    ]
+  },
+  {
+    "key": "illinois state redbirds",
+    "league": "ncaa_fcs",
+    "city": "13,391",
+    "venue": "Hancock Stadium",
+    "variations": [
+      "Illinois State Redbirds"
+    ],
+    "aliases": [
+      "13,391"
+    ]
+  },
+  {
+    "key": "western illinois leathernecks",
+    "league": "ncaa_fcs",
+    "city": "16,368",
+    "venue": "Hanson Field",
+    "variations": [
+      "Western Illinois Leathernecks"
+    ],
+    "aliases": [
+      "16,368"
+    ]
+  },
+  {
+    "key": "ut martin skyhawks",
+    "league": "ncaa_fcs",
+    "city": "7,500",
+    "venue": "Hardy M. Graham Stadium",
+    "variations": [
+      "UT Martin Skyhawks"
+    ],
+    "aliases": [
+      "7,500"
+    ]
+  },
+  {
+    "key": "lindenwood lions",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Harlen C. Hunter Stadium",
+    "variations": [
+      "Lindenwood Lions"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "northwestern state demons",
+    "league": "ncaa_fcs",
+    "city": "15,971",
+    "venue": "Harry Turpin Stadium",
+    "variations": [
+      "Northwestern State Demons"
+    ],
+    "aliases": [
+      "15,971"
+    ]
+  },
+  {
+    "key": "harvard crimson",
+    "league": "ncaa_fcs",
+    "city": "25,884",
+    "venue": "Harvard Stadium",
+    "variations": [
+      "Harvard Crimson"
+    ],
+    "aliases": [
+      "25,884"
+    ]
+  },
+  {
+    "key": "portland state vikings",
+    "league": "ncaa_fcs",
+    "city": "7,600",
+    "venue": "Hillsboro Stadium",
+    "variations": [
+      "Portland State Vikings"
+    ],
+    "aliases": [
+      "7,600"
+    ]
+  },
+  {
+    "key": "stephen f. austin lumberjacks",
+    "league": "ncaa_fcs",
+    "city": "14,575",
+    "venue": "Homer Bryce Stadium",
+    "variations": [
+      "Stephen F. Austin Lumberjacks"
+    ],
+    "aliases": [
+      "14,575"
+    ]
+  },
+  {
+    "key": "sacramento state hornets",
+    "league": "ncaa_fcs",
+    "city": "21,195",
+    "venue": "Hornet Stadium",
+    "variations": [
+      "Sacramento State Hornets"
+    ],
+    "aliases": [
+      "21,195"
+    ]
+  },
+  {
+    "key": "southeast missouri redhawks",
+    "league": "ncaa_fcs",
+    "city": "11,015",
+    "venue": "Houck Stadium",
+    "variations": [
+      "Southeast Missouri Redhawks"
+    ],
+    "aliases": [
+      "11,015"
+    ]
+  },
+  {
+    "key": "morgan state bears",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Hughes Stadium",
+    "variations": [
+      "Morgan State Bears"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "houston christian huskies",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "Husky Stadium",
+    "variations": [
+      "Houston Christian Huskies"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "idaho state bengals",
+    "league": "ncaa_fcs",
+    "city": "12,000",
+    "venue": "ICCU Dome",
+    "variations": [
+      "Idaho State Bengals"
+    ],
+    "aliases": [
+      "12,000"
+    ]
+  },
+  {
+    "key": "morehead state eagles",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Jayne Stadium",
+    "variations": [
+      "Morehead State Eagles"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "robert morris colonials",
+    "league": "ncaa_fcs",
+    "city": "3,000",
+    "venue": "Joe Walton Stadium",
+    "variations": [
+      "Robert Morris Colonials"
+    ],
+    "aliases": [
+      "3,000"
+    ]
+  },
+  {
+    "key": "towson tigers",
+    "league": "ncaa_fcs",
+    "city": "11,198",
+    "venue": "Johnny Unitas Stadium",
+    "variations": [
+      "Towson Tigers"
+    ],
+    "aliases": [
+      "11,198"
+    ]
+  },
+  {
+    "key": "the citadel bulldogs",
+    "league": "ncaa_fcs",
+    "city": "13,800",
+    "venue": "Johnson Hagood Stadium",
+    "variations": [
+      "The Citadel Bulldogs"
+    ],
+    "aliases": [
+      "13,800"
+    ]
+  },
+  {
+    "key": "stony brook seawolves",
+    "league": "ncaa_fcs",
+    "city": "12,300",
+    "venue": "Kenneth P. LaValle Stadium",
+    "variations": [
+      "Stony Brook Seawolves"
+    ],
+    "aliases": [
+      "12,300"
+    ]
+  },
+  {
+    "key": "monmouth hawks",
+    "league": "ncaa_fcs",
+    "city": "4,000",
+    "venue": "Kessler Field",
+    "variations": [
+      "Monmouth Hawks"
+    ],
+    "aliases": [
+      "4,000"
+    ]
+  },
+  {
+    "key": "alabama a&m bulldogs",
+    "league": "ncaa_fcs",
+    "city": "21,000",
+    "venue": "Louis Crews Stadium",
+    "variations": [
+      "Alabama A&M Bulldogs"
+    ],
+    "aliases": [
+      "21,000"
+    ]
+  },
+  {
+    "key": "nicholls colonels",
+    "league": "ncaa_fcs",
+    "city": "10,500",
+    "venue": "Manning Field at John L. Guidry Stadium",
+    "variations": [
+      "Nicholls Colonels"
+    ],
+    "aliases": [
+      "10,500"
+    ]
+  },
+  {
+    "key": "rhode island rams",
+    "league": "ncaa_fcs",
+    "city": "5,180",
+    "venue": "Meade Stadium",
+    "variations": [
+      "Rhode Island Rams"
+    ],
+    "aliases": [
+      "5,180"
+    ]
+  },
+  {
+    "key": "dartmouth big green",
+    "league": "ncaa_fcs",
+    "city": "11,000",
+    "venue": "Memorial Field",
+    "variations": [
+      "Dartmouth Big Green"
+    ],
+    "aliases": [
+      "11,000"
+    ]
+  },
+  {
+    "key": "indiana state sycamores",
+    "league": "ncaa_fcs",
+    "city": "12,464",
+    "venue": "Memorial Stadium",
+    "variations": [
+      "Indiana State Sycamores"
+    ],
+    "aliases": [
+      "12,464"
+    ]
+  },
+  {
+    "key": "tarleton state texans",
+    "league": "ncaa_fcs",
+    "city": "24,000",
+    "venue": "Memorial Stadium",
+    "variations": [
+      "Tarleton State Texans"
+    ],
+    "aliases": [
+      "24,000"
+    ]
+  },
+  {
+    "key": "jackson state tigers",
+    "league": "ncaa_fcs",
+    "city": "60,492",
+    "venue": "Mississippi Veterans Memorial Stadium",
+    "variations": [
+      "Jackson State Tigers"
+    ],
+    "aliases": [
+      "60,492"
+    ]
+  },
+  {
+    "key": "cal poly mustangs",
+    "league": "ncaa_fcs",
+    "city": "11,075",
+    "venue": "Mustang Memorial Field",
+    "variations": [
+      "Cal Poly Mustangs"
+    ],
+    "aliases": [
+      "11,075"
+    ]
+  },
+  {
+    "key": "mercer bears",
+    "league": "ncaa_fcs",
+    "city": "10,200",
+    "venue": "Five Star Stadium at the Moye Complex",
+    "variations": [
+      "Mercer Bears"
+    ],
+    "aliases": [
+      "10,200"
+    ]
+  },
+  {
+    "key": "tennessee state tigers",
+    "league": "ncaa_fcs",
+    "city": "68,798",
+    "venue": "Nissan Stadium",
+    "variations": [
+      "Tennessee State Tigers"
+    ],
+    "aliases": [
+      "68,798"
+    ]
+  },
+  {
+    "key": "northern colorado bears",
+    "league": "ncaa_fcs",
+    "city": "8,533",
+    "venue": "Nottingham Field",
+    "variations": [
+      "Northern Colorado Bears"
+    ],
+    "aliases": [
+      "8,533"
+    ]
+  },
+  {
+    "key": "eastern illinois panthers",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "O’Brien Field",
+    "variations": [
+      "Eastern Illinois Panthers"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "north carolina central eagles",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "O'Kelly–Riddick Stadium",
+    "variations": [
+      "North Carolina Central Eagles"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "south carolina state bulldogs",
+    "league": "ncaa_fcs",
+    "city": "22,000",
+    "venue": "Oliver C. Dawson Stadium",
+    "variations": [
+      "South Carolina State Bulldogs"
+    ],
+    "aliases": [
+      "22,000"
+    ]
+  },
+  {
+    "key": "st. thomas tommies",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "O'Shaughnessy Stadium",
+    "variations": [
+      "St. Thomas Tommies"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "idaho vandals",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "P1FCU Kibbie Dome",
+    "variations": [
+      "Idaho Vandals"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "furman paladins",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "Paladin Stadium",
+    "variations": [
+      "Furman Paladins"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "prairie view a&m panthers",
+    "league": "ncaa_fcs",
+    "city": "15,000",
+    "venue": "Panther Stadium",
+    "variations": [
+      "Prairie View A&M Panthers"
+    ],
+    "aliases": [
+      "15,000"
+    ]
+  },
+  {
+    "key": "princeton tigers",
+    "league": "ncaa_fcs",
+    "city": "27,800",
+    "venue": "Powers Field at Princeton Stadium",
+    "variations": [
+      "Princeton Tigers"
+    ],
+    "aliases": [
+      "27,800"
+    ]
+  },
+  {
+    "key": "lamar cardinals",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "Provost Umphrey Stadium",
+    "variations": [
+      "Lamar Cardinals"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "new haven chargers",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "Ralph F. DellaCamera Stadium",
+    "variations": [
+      "New Haven Chargers"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "elon phoenix",
+    "league": "ncaa_fcs",
+    "city": "11,250",
+    "venue": "Rhodes Stadium",
+    "variations": [
+      "Elon Phoenix"
+    ],
+    "aliases": [
+      "11,250"
+    ]
+  },
+  {
+    "key": "mississippi valley state delta devils",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "Rice–Totten Stadium",
+    "variations": [
+      "Mississippi Valley State Delta Devils"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "davidson wildcats",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Richardson Stadium",
+    "variations": [
+      "Davidson Wildcats"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "utrgv vaqueros",
+    "league": "ncaa_fcs",
+    "city": "12,000",
+    "venue": "Robert and Janet Vackar Stadium",
+    "variations": [
+      "UTRGV Vaqueros"
+    ],
+    "aliases": [
+      "12,000"
+    ]
+  },
+  {
+    "key": "columbia lions",
+    "league": "ncaa_fcs",
+    "city": "17,000",
+    "venue": "Robert K. Kraft Field at Lawrence A. Wien Stadium",
+    "variations": [
+      "Columbia Lions"
+    ],
+    "aliases": [
+      "17,000"
+    ]
+  },
+  {
+    "key": "eastern washington eagles",
+    "league": "ncaa_fcs",
+    "city": "8,600",
+    "venue": "Roos Field",
+    "variations": [
+      "Eastern Washington Eagles"
+    ],
+    "aliases": [
+      "8,600"
+    ]
+  },
+  {
+    "key": "eastern kentucky colonels",
+    "league": "ncaa_fcs",
+    "city": "20,000",
+    "venue": "Roy Kidd Stadium",
+    "variations": [
+      "Eastern Kentucky Colonels"
+    ],
+    "aliases": [
+      "20,000"
+    ]
+  },
+  {
+    "key": "murray state racers",
+    "league": "ncaa_fcs",
+    "city": "16,800",
+    "venue": "Roy Stewart Stadium",
+    "variations": [
+      "Murray State Racers"
+    ],
+    "aliases": [
+      "16,800"
+    ]
+  },
+  {
+    "key": "southern illinois salukis",
+    "league": "ncaa_fcs",
+    "city": "15,276",
+    "venue": "Saluki Stadium",
+    "variations": [
+      "Southern Illinois Salukis"
+    ],
+    "aliases": [
+      "15,276"
+    ]
+  },
+  {
+    "key": "mercyhurst lakers",
+    "league": "ncaa_fcs",
+    "city": "2,300",
+    "venue": "Saxon Stadium",
+    "variations": [
+      "Mercyhurst Lakers"
+    ],
+    "aliases": [
+      "2,300"
+    ]
+  },
+  {
+    "key": "cornell big red",
+    "league": "ncaa_fcs",
+    "city": "21,500",
+    "venue": "Schoellkopf Field",
+    "variations": [
+      "Cornell Big Red"
+    ],
+    "aliases": [
+      "21,500"
+    ]
+  },
+  {
+    "key": "samford bulldogs",
+    "league": "ncaa_fcs",
+    "city": "6,700",
+    "venue": "Seibert Stadium",
+    "variations": [
+      "Samford Bulldogs"
+    ],
+    "aliases": [
+      "6,700"
+    ]
+  },
+  {
+    "key": "texas southern tigers",
+    "league": "ncaa_fcs",
+    "city": "20,656",
+    "venue": "Shell Energy Stadium",
+    "variations": [
+      "Texas Southern Tigers"
+    ],
+    "aliases": [
+      "20,656"
+    ]
+  },
+  {
+    "key": "arkansas–pine bluff golden lions",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "Simmons Bank Field",
+    "variations": [
+      "Arkansas–Pine Bluff Golden Lions"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "stetson hatters",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Spec Martin Municipal Stadium",
+    "variations": [
+      "Stetson Hatters"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "youngstown state penguins",
+    "league": "ncaa_fcs",
+    "city": "20,650",
+    "venue": "Stambaugh Stadium",
+    "variations": [
+      "Youngstown State Penguins"
+    ],
+    "aliases": [
+      "20,650"
+    ]
+  },
+  {
+    "key": "weber state wildcats",
+    "league": "ncaa_fcs",
+    "city": "17,000",
+    "venue": "Stewart Stadium",
+    "variations": [
+      "Weber State Wildcats"
+    ],
+    "aliases": [
+      "17,000"
+    ]
+  },
+  {
+    "key": "southeastern louisiana lions",
+    "league": "ncaa_fcs",
+    "city": "7,408",
+    "venue": "Strawberry Stadium",
+    "variations": [
+      "Southeastern Louisiana Lions"
+    ],
+    "aliases": [
+      "7,408"
+    ]
+  },
+  {
+    "key": "marist red foxes",
+    "league": "ncaa_fcs",
+    "city": "5,000",
+    "venue": "Tenney Stadium at Leonidoff Field",
+    "variations": [
+      "Marist Red Foxes"
+    ],
+    "aliases": [
+      "5,000"
+    ]
+  },
+  {
+    "key": "san diego toreros",
+    "league": "ncaa_fcs",
+    "city": "6,000",
+    "venue": "Torero Stadium",
+    "variations": [
+      "San Diego Toreros"
+    ],
+    "aliases": [
+      "6,000"
+    ]
+  },
+  {
+    "key": "north carolina a&t aggies",
+    "league": "ncaa_fcs",
+    "city": "21,500",
+    "venue": "Truist Stadium",
+    "variations": [
+      "North Carolina A&T Aggies"
+    ],
+    "aliases": [
+      "21,500"
+    ]
+  },
+  {
+    "key": "tennessee tech golden eagles",
+    "league": "ncaa_fcs",
+    "city": "16,500",
+    "venue": "Tucker Stadium",
+    "variations": [
+      "Tennessee Tech Golden Eagles"
+    ],
+    "aliases": [
+      "16,500"
+    ]
+  },
+  {
+    "key": "uc davis aggies",
+    "league": "ncaa_fcs",
+    "city": "10,849",
+    "venue": "UC Davis Health Stadium",
+    "variations": [
+      "UC Davis Aggies"
+    ],
+    "aliases": [
+      "10,849"
+    ]
+  },
+  {
+    "key": "northern iowa panthers",
+    "league": "ncaa_fcs",
+    "city": "16,000",
+    "venue": "UNI-Dome",
+    "variations": [
+      "Northern Iowa Panthers"
+    ],
+    "aliases": [
+      "16,000"
+    ]
+  },
+  {
+    "key": "west georgia wolves",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "University Stadium",
+    "variations": [
+      "West Georgia Wolves"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "villanova wildcats",
+    "league": "ncaa_fcs",
+    "city": "12,500",
+    "venue": "Villanova Stadium",
+    "variations": [
+      "Villanova Wildcats"
+    ],
+    "aliases": [
+      "12,500"
+    ]
+  },
+  {
+    "key": "wagner seahawks",
+    "league": "ncaa_fcs",
+    "city": "3,300",
+    "venue": "Wagner College Stadium",
+    "variations": [
+      "Wagner Seahawks"
+    ],
+    "aliases": [
+      "3,300"
+    ]
+  },
+  {
+    "key": "northern arizona lumberjacks",
+    "league": "ncaa_fcs",
+    "city": "15,300",
+    "venue": "Walkup Skydome",
+    "variations": [
+      "Northern Arizona Lumberjacks"
+    ],
+    "aliases": [
+      "15,300"
+    ]
+  },
+  {
+    "key": "stonehill skyhawks",
+    "league": "ncaa_fcs",
+    "city": "2,400",
+    "venue": "W.B. Mason Stadium",
+    "variations": [
+      "Stonehill Skyhawks"
+    ],
+    "aliases": [
+      "2,400"
+    ]
+  },
+  {
+    "key": "montana grizzlies",
+    "league": "ncaa_fcs",
+    "city": "25,200",
+    "venue": "Washington–Grizzly Stadium",
+    "variations": [
+      "Montana Grizzlies"
+    ],
+    "aliases": [
+      "25,200"
+    ]
+  },
+  {
+    "key": "dayton flyers",
+    "league": "ncaa_fcs",
+    "city": "11,000",
+    "venue": "Welcome Stadium",
+    "variations": [
+      "Dayton Flyers"
+    ],
+    "aliases": [
+      "11,000"
+    ]
+  },
+  {
+    "key": "new hampshire wildcats",
+    "league": "ncaa_fcs",
+    "city": "11,015",
+    "venue": "Wildcat Stadium",
+    "variations": [
+      "New Hampshire Wildcats"
+    ],
+    "aliases": [
+      "11,015"
+    ]
+  },
+  {
+    "key": "norfolk state spartans",
+    "league": "ncaa_fcs",
+    "city": "30,000",
+    "venue": "William \"Dick\" Price Stadium",
+    "variations": [
+      "Norfolk State Spartans"
+    ],
+    "aliases": [
+      "30,000"
+    ]
+  },
+  {
+    "key": "east tennessee state buccaneers",
+    "league": "ncaa_fcs",
+    "city": "7,694",
+    "venue": "William B. Greene Jr. Stadium",
+    "variations": [
+      "East Tennessee State Buccaneers"
+    ],
+    "aliases": [
+      "7,694"
+    ]
+  },
+  {
+    "key": "howard bison",
+    "league": "ncaa_fcs",
+    "city": "10,000",
+    "venue": "William H. Greene Stadium",
+    "variations": [
+      "Howard Bison"
+    ],
+    "aliases": [
+      "10,000"
+    ]
+  },
+  {
+    "key": "yale bulldogs",
+    "league": "ncaa_fcs",
+    "city": "61,446",
+    "venue": "Yale Bowl",
+    "variations": [
+      "Yale Bulldogs"
+    ],
+    "aliases": [
+      "61,446"
+    ]
+  },
+  {
+    "key": "william & mary tribe",
+    "league": "ncaa_fcs",
+    "city": "12,259",
+    "venue": "Zable Stadium",
+    "variations": [
+      "William & Mary Tribe"
+    ],
+    "aliases": [
+      "12,259"
+    ]
+  }
+]

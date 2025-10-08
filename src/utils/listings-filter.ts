@@ -81,6 +81,45 @@ function isListingEligible(listing: Listing, params: ListingsForEventParams): bo
     return false;
   }
 
+  // Handle section pattern matching
+  // Supports:
+  //  - Single prefix: "1" matches 100-level (sections starting with "1")
+  //  - Comma-separated prefixes: "1,2" matches 100- and 200-level
+  //  - Numeric range: "24-34" matches sections whose numeric value is between 24 and 34 inclusive
+  if (params.section_pattern_filter) {
+    const pattern = params.section_pattern_filter.trim();
+    let matched = false;
+
+    // Helper to test a single token against a section
+    const testToken = (token: string): boolean => {
+      token = token.trim();
+      if (!token) return false;
+
+      // Range: e.g., "24-34"
+      const rangeMatch = token.match(/^(\d+)\s*-\s*(\d+)$/);
+      if (rangeMatch) {
+        const start = parseInt(rangeMatch[1], 10);
+        const end = parseInt(rangeMatch[2], 10);
+        const secNum = parseInt(listing.section.replace(/[^\d]/g, ''), 10);
+        if (!Number.isNaN(secNum) && secNum >= Math.min(start, end) && secNum <= Math.max(start, end)) {
+          return true;
+        }
+        return false;
+      }
+
+      // Prefix match
+      return listing.section.startsWith(token);
+    };
+
+    if (pattern.includes(',')) {
+      matched = pattern.split(',').some(tok => testToken(tok));
+    } else {
+      matched = testToken(pattern);
+    }
+
+    if (!matched) return false;
+  }
+
   return true;
 }
 

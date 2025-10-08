@@ -89,7 +89,9 @@ const listingsForEventSchema: JSONSchemaType<ListingsForEventParams> = {
       ], 
       nullable: true 
     },
-    return_top: { type: 'integer', minimum: 1, maximum: 5, nullable: true }
+    return_top: { type: 'integer', minimum: 1, maximum: 50, nullable: true },
+    section_pattern: { type: 'string', nullable: true },
+    section_pattern_filter: { type: 'string', nullable: true }
   },
   required: ['event_id', 'requested_quantity'],
   additionalProperties: false
@@ -181,7 +183,7 @@ const universalEventFinderSchema: JSONSchemaType<UniversalEventFinderParams> = {
     location: { type: 'string', nullable: true },
     weeks_ahead: { type: 'integer', minimum: 1, maximum: 52, nullable: true },
     budget_per_ticket: { type: 'number', minimum: 1, nullable: true },
-    requested_quantity: { type: 'integer', minimum: 1, maximum: 20, nullable: true }
+    requested_quantity: { type: 'integer', minimum: 1, maximum: 100, nullable: true }
   },
   required: ['query'],
   additionalProperties: false

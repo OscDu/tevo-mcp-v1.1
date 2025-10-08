@@ -58,3 +58,21 @@ An MCP (Model Context Protocol) server that provides access to the Ticket Evolut
 - `tevo_entertainment_event_finder` - Specialized search for concerts, comedy, theater
 - `tevo_smart_ticket_presenter` - Budget-aware ticket recommendations
 - `tevo_smart_nfl_finder` - Advanced NFL game discovery
+
+## Optional Team/Venue Dataset (Advanced)
+
+To improve coverage for team-driven searches (including NCAA programs) without relying solely on suggestions, you can provide a curated dataset that augments the built-in mappings.
+
+- Path: `data/team_venues.json`
+- Example: `data/team_venues.json.example`
+- Schema per record:
+  - `key` (string) canonical team key, e.g., `georgia bulldogs`
+  - `league` (string) e.g., `nfl`, `nba`, `mlb`, `nhl`, `mls`, `ncaa_fbs`, `ncaa_fcs`
+  - `city` (string)
+  - `venue` (string)
+  - `lat` (number), `lon` (number)
+  - `venue_id` (number, optional)
+  - `variations` (string[], optional) name and nickname variations
+  - `aliases` (string[], optional) city aliases (e.g., `Athens GA`)
+
+When present, this file is loaded at runtime and merged into the universal search’s team and city maps.

@@ -70,9 +70,13 @@ export function createListingsForEventTool(_apiClient: TevoApiClient, _cache: Me
         return_top: { 
           type: 'integer',
           minimum: 1,
-          maximum: 5,
+          maximum: 50,
           default: 5,
-          description: 'Number of top listings to return (max: 5, default: 5)'
+          description: 'Number of top listings to return (max: 50, default: 5)'
+        },
+        section_pattern: { 
+          type: 'string',
+          description: 'Filter by section pattern (e.g., "1" for all 100-level sections, "10" for sections starting with 10)'
         }
       },
       required: ['event_id', 'requested_quantity']
@@ -96,6 +100,11 @@ export async function handleListingsForEvent(
   if (validatedParams.instant_delivery !== undefined) filters.instant_delivery = validatedParams.instant_delivery;
   if (validatedParams.wheelchair !== undefined) filters.wheelchair = validatedParams.wheelchair;
   if (validatedParams.order_by) filters.order_by = validatedParams.order_by;
+  
+  // Add section_pattern to validatedParams for use in filtering
+  if (validatedParams.section_pattern) {
+    validatedParams.section_pattern_filter = validatedParams.section_pattern;
+  }
 
   const listingsResponse = await apiClient.getListings(validatedParams.event_id, filters);
   

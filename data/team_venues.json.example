@@ -1,0 +1,32 @@
+[
+  {
+    "key": "georgia bulldogs",
+    "league": "ncaa_fbs",
+    "city": "Athens",
+    "venue": "Sanford Stadium",
+    "lat": 33.9519,
+    "lon": -83.3732,
+    "variations": ["Georgia Bulldogs", "Georgia", "UGA", "UGA Bulldogs"],
+    "aliases": ["Athens GA", "Athens Georgia"]
+  },
+  {
+    "key": "auburn tigers",
+    "league": "ncaa_fbs",
+    "city": "Auburn",
+    "venue": "Jordan-Hare Stadium",
+    "lat": 32.6099,
+    "lon": -85.4808,
+    "variations": ["Auburn Tigers", "Auburn", "War Eagle"],
+    "aliases": ["Auburn AL", "Auburn Alabama"]
+  },
+  {
+    "key": "green bay packers",
+    "league": "nfl",
+    "city": "Green Bay",
+    "venue": "Lambeau Field",
+    "lat": 44.5013,
+    "lon": -88.0622,
+    "variations": ["Green Bay Packers", "Packers", "GB Packers"]
+  }
+]
+
